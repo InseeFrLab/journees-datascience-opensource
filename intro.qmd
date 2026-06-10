@@ -49,62 +49,82 @@ format:
 
 ---
 
-# Bienvenue ! {.divider}
+## Pourquoi ce sprint ?
 
-## Qui sommes-nous ?
+**Le réseau SSPHub** — la communauté des data scientists du Service Statistique Public (730+ agents : INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…). Nous utilisons ces outils open source tous les jours — nous pouvons aussi les améliorer.
+
+::: {.incremental}
+- On se dit souvent : *« je ne suis pas assez expert·e »*, *« mon code n'est pas assez propre »*
+- La réalité : les projets ont **besoin** de contributions, et les portes d'entrée sont **accessibles à tous** — doc, traduction, tests comptent autant que le code
+:::
+
+. . .
+
+::: {.callout-note appearance="simple"}
+**L'objectif du sprint :** *démystifier* la contribution. Le plus dur n'est pas le code — c'est de boucler **une fois** le cycle complet.
+:::
+
+---
+
+## Le programme
 
 :::: {.columns}
-::: {.column width="55%"}
-**Le réseau SSPHub**
+::: {.column width="50%"}
+**Mardi 16 juin**
 
-- Communauté des data scientists du **Service Statistique Public**
-- Plus de **730 agents** abonnés à la newsletter
-- INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…
-
-**Aujourd'hui**
-
-- Données, code et méthodes ouverts
-- Outils partagés, pratiques communes
-- Une communauté qui contribue
+| Horaire | |
+|---------|--|
+| 9h30 | ☕ Accueil & café |
+| 10h00 | 🎤 Ouverture |
+| 10h30 | 🎯 Introduction *(vous y êtes)* |
+| 10h45 | 🎯 Pitch des sujets |
+| 11h05 | 🔀 Formation des groupes |
+| 11h15–17h30 | 💻 Sprint (3 sessions) |
 :::
-::: {.column width="45%"}
-::: {.callout-note appearance="simple"}
-**Ce sprint**, c'est la communauté qui dit :
+::: {.column width="50%"}
+**Mercredi 17 juin**
 
-*« On utilise ces outils tous les jours — on peut aussi les améliorer. »*
-:::
+| Horaire | |
+|---------|--|
+| 9h00 | ☕ Accueil |
+| 9h15–15h30 | 💻 Sprint (2 sessions) |
+| 16h00–17h00 | 🎤 Restitution & Clôture |
 :::
 ::::
 
 ---
 
-# Pourquoi ce sprint ? {.divider}
+## Les projets du sprint
 
-## Le constat
-
-:::: {.columns}
-::: {.column width="50%"}
-**Ce qu'on se dit souvent**
-
-- *« Je ne suis pas assez expert·e »*
-- *« Mon code n'est pas assez propre »*
-- *« Les mainteneurs ne voudront pas de ma PR »*
-- *« C'est compliqué de contribuer »*
-:::
-::: {.column width="50%"}
-**La réalité**
-
-- Les projets ont **besoin** de contributions
-- Les portes d'entrée sont **accessibles à tous**
-- La doc, la traduction, les tests = **contributions réelles**
-- Les mainteneurs **accueillent** les débutants
-:::
-::::
+```{=html}
+<div class="card-grid">
+  <div class="card">
+    <h4>Active Tigger</h4>
+    <p>Annotation collaborative de textes avec apprentissage actif.<br>
+    Emilien Schultz — CREST / ENSAE · <code>github.com/emilienschultz/activetigger</code></p>
+  </div>
+  <div class="card">
+    <h4>SNDSTools</h4>
+    <p>Boîte à outils Python/R pour les données de santé (SNDS).<br>
+    Matthieu Doutreligne — INSEE DEE · <code>sndstoolers.github.io/sndsTools</code></p>
+  </div>
+  <div class="card">
+    <h4>CanaR</h4>
+    <p>CLI pour déployer des chatbots RAG, en local ou en CI/Docker.<br>
+    Florian Givernaud — CEREQ · <code>github.com/Romanovytch/canar</code></p>
+  </div>
+  <div class="card">
+    <h4>UtilitR</h4>
+    <p>La documentation collaborative de R pour le service public.<br>
+    Julien Blasco — DREES / OSOL · <code>www.book.utilitr.org</code></p>
+  </div>
+</div>
+```
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-**L'objectif du sprint :** *démystifier* la contribution. Montrer que le plus dur n'est pas le code — c'est de boucler **une fois** le cycle complet.
+**Pitchs détaillés à 10h45** — 5 minutes par projet, puis vous choisissez votre groupe.
 :::
 
 ---
@@ -129,164 +149,15 @@ format:
 
 ---
 
-# Le programme {.divider}
+## Avant de contribuer
 
-## Deux jours pour contribuer
-
-:::: {.columns}
-::: {.column width="50%"}
-**Mardi 16 juin**
-
-| Horaire | |
-|---------|--|
-| 9h30 | ☕ Accueil |
-| 10h00 | 🎤 Ouverture *(vous y êtes)* |
-| 10h30 | 🎤 Kit de contribution |
-| 11h00 | 🎯 Pitch des sujets |
-| 11h15 | 🔀 Formation des groupes |
-| 11h15–17h30 | 💻 Sprint (3 sessions) |
-:::
-::: {.column width="50%"}
-**Mercredi 17 juin**
-
-| Horaire | |
-|---------|--|
-| 9h00 | ☕ Accueil |
-| 9h15 | 🎯 Mini-ateliers |
-| 9h30–15h30 | 💻 Sprint (2 sessions) |
-| 16h00 | 🎤 Restitution & démos |
-| 17h00 | 🏆 Clôture & badges |
-:::
-::::
-
----
-
-# Les projets {.divider}
-
-## Active Tigger
-
-:::: {.columns}
-::: {.column width="65%"}
-**Outil d'annotation collaborative de textes**
-
-- Apprentissage actif pour réduire le temps d'annotation
-- Fine-tuning de classifieurs encodeurs (BERT…)
-- Analyse thématique avec BERTopic
-- Accès à des outils d'IA générative
-
-**Contributions accessibles**
-- Documentation et tutoriels
-- Tests sur de nouveaux jeux de données
-- Issues pour améliorer l'UX
-
-:::
-::: {.column width="35%"}
-**Référent**
-
-Emilien Schultz
-CREST / ENSAE
-
-`github.com/emilienschultz/activetigger`
-:::
-::::
-
----
-
-## SNDSTools
-
-:::: {.columns}
-::: {.column width="65%"}
-**Faciliter l'exploitation des données de santé (SNDS)**
-
-- Co-développé avec hospitaliers, Inria et DREES
-- Chaîne de traitement des données SNDS
-- Documentation du système de santé
-
-**Contributions accessibles**
-- Documentation et exemples
-- Signalement et reproduction de bugs
-- Ajout de tests
-
-:::
-::: {.column width="35%"}
-**Référent**
-
-Matthieu Doutreligne
-INSEE DEE
-
-`sndstoolers.github.io/sndsTools`
-:::
-::::
-
----
-
-## CanaR
-
-:::: {.columns}
-::: {.column width="65%"}
-**CLI pour déployer des chatbots RAG**
-
-- Déploiement autonome de chatbots personnalisés
-- Utilisable en local ou en CI/Docker
-- Extension MCP à l'étude
-
-**Contributions accessibles**
-- Documentation et guide d'installation
-- Tests d'intégration
-- Code : nouvelles fonctionnalités
-
-:::
-::: {.column width="35%"}
-**Référent**
-
-Florian Givernaud
-CEREQ
-
-`github.com/Romanovytch/canar`
-:::
-::::
-
----
-
-## UtilitR
-
-:::: {.columns}
-::: {.column width="65%"}
-**La référence R pour le service public**
-
-- Documentation collaborative de R pour les agents SSP
-- Cas d'usage concrets, données publiques françaises
-- Maintenu par une communauté d'agents volontaires
-
-**Contributions accessibles**
-- Nouvelles pages de documentation
-- Mise à jour de chapitres existants
-- Exemples avec les nouveaux packages R
-
-:::
-::: {.column width="35%"}
-**Référent**
-
-Julien Blasco
-DREES / OSOL
-
-`www.book.utilitr.org`
-:::
-::::
-
----
-
-# Les règles du jeu {.divider}
-
-## Comment on joue ensemble
+📖 **Lisez le `CONTRIBUTING.md` du projet** — *toujours, avant la première ligne*. Chaque projet a ses conventions (style, branches, tests, format des PR) ; les suivre, c'est le meilleur moyen d'être mergé.
 
 ::: {.incremental}
-- 🙋 **On annonce ce qu'on prend** — commentez « *je prends* » sur l'issue avant de commencer
-- 📖 **On lit le `CONTRIBUTING.md` avant** de coder — *toujours*
+- 🙋 **Annoncez ce que vous prenez** — commentez « *je prends* » sur l'issue avant de commencer
 - 🧩 **Une issue à la fois**, des PR **petites et focalisées** (une PR = une chose)
-- 🆘 **On demande de l'aide** — les référents et aidants sont là pour ça
-- 💬 **Bienveillance** — on respecte le Code of Conduct du projet et des participants
-- ⏳ **On reste patient** — la review peut prendre du temps, c'est normal
+- 🆘 **Demandez de l'aide** — les référents et aidants sont là pour ça
+- 💬 **Bienveillance & patience** — respectez le Code of Conduct ; la review peut prendre du temps, c'est normal
 :::
 
 . . .
@@ -297,13 +168,28 @@ DREES / OSOL
 
 ---
 
-# Infos pratiques {.divider}
+## Et l'IA dans tout ça ?
+
+::: {.incremental}
+- 🧭 **Chaque projet a sa propre politique** — vérifiez le `CONTRIBUTING.md` et la doc *avant* d'utiliser un assistant IA
+- 📣 Certains projets **refusent** les contributions générées par IA, d'autres demandent de **déclarer leur usage** dans la PR
+- 🧠 **Vous restez responsable** de ce que vous soumettez : comprendre, tester et relire chaque ligne
+- ⚖️ Pas de PR générées en masse — **qualité avant quantité**, respectez le temps des mainteneurs
+:::
+
+. . .
+
+::: {.callout-note appearance="simple"}
+En cas de doute sur la politique IA d'un projet, **demandez au référent**.
+:::
+
+---
 
 ## Ce dont vous avez besoin
 
 ::: {.incremental}
 1. ✅ **Compte GitHub** + Personal Access Token (PAT) créé
-2. ✅ **SSPCloud** — accès sur `datalab.sspcloud.fr` (rien à installer en local)
+2. ✅ **SSPCloud** — VSCode, Jupyter ou RStudio prêts dans le navigateur sur `datalab.sspcloud.fr`, rien à installer en local
 3. ✅ Token GitHub enregistré dans SSPCloud (`Mon compte → Services externes`)
 4. ✅ **Canal Tchap** `#sprint-oss` rejoint pour la coordination
 5. ✅ **Issue choisie** et réservée après les pitchs
@@ -313,39 +199,15 @@ DREES / OSOL
 
 ::: {.callout-note appearance="simple"}
 Besoin d'aide pour la config ? Les aidants sont là dès maintenant — levez la main !
-:::
-
----
-
-## SSPCloud en un clic
-
-- VSCode, Jupyter ou RStudio **prêts à l'emploi** dans le navigateur
-- Git configuré automatiquement avec votre token GitHub
-- Ressources CPU/RAM à la demande, **rien à installer en local**
-- Même environnement pour tout le monde = **reproductible**
-
-. . .
-
-::: {.callout-tip}
-La suite complète est dans le **kit de contribution** → [slides techniques](pres.html)
-: fork, branches, PR, rebase, guidelines…
+La suite (fork, branches, PR, rebase, guidelines) est dans le **[kit de contribution](pres.html)**.
 :::
 
 ---
 
 # C'est parti ! {.divider}
 
-## La suite dans 30 minutes
+**10h45** — Pitch des sujets · **11h05** — Formation des groupes · **11h15** — Sprint !
 
-- **10h30** — Kit de contribution : anatomie d'une contribution, fork, PR, guidelines
-- **11h00** — Pitchs des sujets (5 min chacun)
-- **11h15** — Vous choisissez votre groupe et vous lancez !
-
-. . .
-
-::: {.callout-note appearance="simple"}
 Ce sprint est un espace pour **découvrir, explorer, se donner du temps**.
 
-Commencez petit, lisez les guidelines, demandez de l'aide.
-**Bon sprint à toutes et à tous !** 🎉
-:::
+Commencez petit, lisez les guidelines, demandez de l'aide. **Bon sprint à toutes et à tous !** 🎉
