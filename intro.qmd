@@ -191,15 +191,13 @@ En cas de doute sur la politique IA d'un projet, **demandez au référent**.
 1. ✅ **Compte GitHub** + Personal Access Token (PAT) créé
 2. ✅ **SSPCloud** — VSCode, Jupyter ou RStudio prêts dans le navigateur sur `datalab.sspcloud.fr`, rien à installer en local
 3. ✅ Token GitHub enregistré dans SSPCloud (`Mon compte → Services externes`)
-4. ✅ **Canal Tchap** `#sprint-oss` rejoint pour la coordination
-5. ✅ **Issue choisie** et réservée après les pitchs
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
 Besoin d'aide pour la config ? Les aidants sont là dès maintenant — levez la main !
-La suite (fork, branches, PR, rebase, guidelines) est dans le **[kit de contribution](pres.html)**.
+La suite (fork, branches, PR, rebase, guidelines) est dans le **[kit de contribution](git-guide.html)**.
 :::
 
 ---
