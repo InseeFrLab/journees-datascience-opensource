@@ -135,7 +135,7 @@ format:
 
 :::: {.columns}
 ::: {.column width="50%"}
-**Lundi 16 juin**
+**Mardi 16 juin**
 
 | Horaire | |
 |---------|--|
@@ -147,7 +147,7 @@ format:
 | 11h15–17h30 | 💻 Sprint (3 sessions) |
 :::
 ::: {.column width="50%"}
-**Mardi 17 juin**
+**Mercredi 17 juin**
 
 | Horaire | |
 |---------|--|

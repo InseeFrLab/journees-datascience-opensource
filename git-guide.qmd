@@ -56,7 +56,7 @@ Résultat : vous pouvez cloner, committer et pousser vers votre fork **sans jama
 Voici le cycle complet d'une contribution, du fork à la PR mergée.
 
 ::: {.callout-important}
-Les projets opensource disposent en général d'un documentde bonnes pratiques pour les contributions (souvent un fichier `CONTRIBUTING.md` à la racine du dépôt), il est important d'en suivre les recommandations.
+Les projets open source disposent en général d'un document de bonnes pratiques pour les contributions (souvent un fichier `CONTRIBUTING.md` à la racine du dépôt), il est important d'en suivre les recommandations.
 :::
 
 ### Fork et clone

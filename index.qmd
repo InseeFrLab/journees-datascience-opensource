@@ -1,6 +1,12 @@
 ---
 title: "Journées Data Science & Open Source"
 toc: false
+listing:
+  id: projets-accueil
+  contents: projets.yml
+  template: projets.ejs
+  sort: false
+  page-size: 50
 ---
 
 ```{=html}
@@ -58,74 +64,8 @@ Les projets open source ont des besoins très concrets et très accessibles :
 
 ## Les projets au programme
 
-```{=html}
-<div class="projets-grid">
-
-  <div class="projet-card">
-    <h3>Active Tigger</h3>
-    <div class="org">CREST / ENSAE — Emilien Schultz</div>
-    <p>Outil open source d'annotation collaborative de corpus textuels avec apprentissage actif, fine-tuning de classifieurs et BERTopic.</p>
-    <div class="badges">
-      <span class="badge badge-doc">Documentation</span>
-      <span class="badge badge-tests">Tests</span>
-      <span class="badge badge-code">Code</span>
-    </div>
-    <br>
-    <a class="repo-link" href="https://github.com/emilienschultz/activetigger/" target="_blank">→ Voir sur GitHub</a>
-  </div>
-
-  <div class="projet-card">
-    <h3>SNDSTools</h3>
-    <div class="org">INSEE DEE / Inria — Matthieu Doutreligne</div>
-    <p>Boîte à outils pour faciliter l'exploitation des données du Système National de Données de Santé (SNDS).</p>
-    <div class="badges">
-      <span class="badge badge-doc">Documentation</span>
-      <span class="badge badge-bug">Issues</span>
-      <span class="badge badge-tests">Tests</span>
-    </div>
-    <br>
-    <a class="repo-link" href="https://sndstoolers.github.io/sndsTools/" target="_blank">→ Voir le projet</a>
-  </div>
-
-  <div class="projet-card">
-    <h3>CanaR</h3>
-    <div class="org">CEREQ — Florian Givernaud</div>
-    <p>CLI open source pour déployer en autonomie des chatbots personnalisés avec du RAG — utilisable en local ou via CI/Docker.</p>
-    <div class="badges">
-      <span class="badge badge-doc">Documentation</span>
-      <span class="badge badge-code">Code</span>
-      <span class="badge badge-bug">Issues</span>
-    </div>
-    <br>
-    <a class="repo-link" href="https://github.com/Romanovytch/canar" target="_blank">→ Voir sur GitHub</a>
-  </div>
-
-  <div class="projet-card">
-    <h3>UtilitR</h3>
-    <div class="org">DREES / OSOL — Julien Blasco</div>
-    <p>Documentation collaborative de R à destination des agents du Service Statistique Public — référence incontournable de l'écosystème.</p>
-    <div class="badges">
-      <span class="badge badge-doc">Documentation</span>
-      <span class="badge badge-trad">Traduction</span>
-      <span class="badge badge-bug">Issues</span>
-    </div>
-    <br>
-    <a class="repo-link" href="https://www.book.utilitr.org/" target="_blank">→ Voir le projet</a>
-  </div>
-
-  <div class="projet-card">
-    <h3>Et plus encore…</h3>
-    <div class="org">Cartiflette, Probabl, et d'autres</div>
-    <p>D'autres sujets seront annoncés début mai. Vous pouvez aussi proposer un projet — <a href="sujets.html">voir l'appel à sujets</a>. Ou contribuer librement à un grand projet — <a href="divers.html">sélection d'issues</a>.</p>
-    <div class="badges">
-      <span class="badge badge-doc">Documentation</span>
-      <span class="badge badge-code">Code</span>
-      <span class="badge badge-design">Design</span>
-    </div>
-  </div>
-
-</div>
-```
+::: {#projets-accueil}
+:::
 
 ## Comment ça se passe ?
 
@@ -139,13 +79,11 @@ Les projets open source ont des besoins très concrets et très accessibles :
 
 | | |
 |---|---|
-| **Dates** | Lundi 16 et mardi 17 juin 2026 |
+| **Dates** | Mardi 16 et mercredi 17 juin 2026 |
 | **Lieu** | Lieu de la transformation publique, Paris |
 | **Public** | Agents du Service Statistique Public (SSP) |
 | **Inscription** | Via formulaire Grist (lien envoyé par SSPHub) |
 | **Prérequis** | Compte GitHub, motivation — c'est tout |
-
-<br>
 
 ::: {.callout-note appearance="simple"}
 Questions ? Rejoignez le canal **#ssphub** sur Tchap ou contactez l'équipe SSPHub.

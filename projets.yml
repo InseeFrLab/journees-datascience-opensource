@@ -1,0 +1,77 @@
+# Données des cartes projets, affichées sur index.qmd (toutes) et
+# sujets.qmd (sans l'entrée `statut: teaser`) via le template projets.ejs.
+#
+# Champs :
+#   title          nom du projet
+#   org            organisme — référent·e
+#   description    markdown accepté (liens [texte](page.html)) ; le HTML brut
+#                  serait échappé par Quarto
+#   contributions  liste de {type, label?} ; type ∈ doc|bug|tests|code|trad|design
+#                  (classes CSS .badge-<type>), label remplace le libellé par défaut
+#   liens          liste de {texte, url}
+#   statut         "teaser" = carte d'annonce, exclue de la page Sujets
+
+- title: "Active Tigger"
+  org: "CREST / ENSAE — Emilien Schultz"
+  description: >
+    Logiciel open source d'annotation collaborative de textes pour les
+    sciences sociales computationnelles. Intègre l'apprentissage actif, le
+    fine-tuning de classifieurs encodeurs, BERTopic et des outils d'IA
+    générative.
+  contributions:
+    - type: doc
+    - type: tests
+    - type: code
+    - type: bug
+  liens:
+    - texte: "GitHub"
+      url: "https://github.com/emilienschultz/activetigger/"
+    - texte: "Site"
+      url: "https://www.css.cnrs.fr/active-tigger/"
+
+- title: "SNDSTools"
+  org: "INSEE DEE / Inria / DREES — Matthieu Doutreligne"
+  description: >
+    Boîte à outils Python/R pour faciliter l'accès et l'exploitation des
+    données du Système National de Données de Santé (SNDS). Projet
+    co-développé avec des équipes hospitalières et de l'Inria.
+  contributions:
+    - type: doc
+    - type: bug
+    - type: tests
+    - type: trad
+      label: "Exemples"
+  liens:
+    - texte: "Site du projet"
+      url: "https://sndstoolers.github.io/sndsTools/"
+
+- title: "CanaR"
+  org: "CEREQ — Florian Givernaud"
+  description: >
+    Outil CLI open source pour déployer en autonomie des chatbots
+    personnalisés avec du RAG. Utilisable en local ou industrialisable en
+    CI/Docker. Extension MCP à l'étude.
+  contributions:
+    - type: doc
+    - type: code
+    - type: bug
+    - type: tests
+  liens:
+    - texte: "GitHub"
+      url: "https://github.com/Romanovytch/canar"
+
+- title: "UtilitR"
+  org: "DREES / OSOL — Julien Blasco"
+  description: >
+    Documentation collaborative de R à destination des agents du Service
+    Statistique Public. Référence de l'écosystème SSP pour l'utilisation de
+    R en pratique professionnelle.
+  contributions:
+    - type: doc
+    - type: trad
+    - type: bug
+    - type: design
+      label: "Exemples"
+  liens:
+    - texte: "Lire utilitR"
+      url: "https://www.book.utilitr.org/"

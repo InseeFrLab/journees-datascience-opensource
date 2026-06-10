@@ -10,7 +10,7 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 
 ---
 
-## Lundi 16 juin 2026
+## Mardi 16 juin 2026
 
 | Horaire       | Activité                 | Détail                                                                                   |
 |---------------|-------------------------|------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 
 ---
 
-## Mardi 17 juin 2026
+## Mercredi 17 juin 2026
 
 | Horaire       | Activité                 | Détail                                                                               |
 |---------------|--------------------------|--------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 
 **Outils**
 : Accès [SSPCloud](https://datalab.sspcloud.fr) pour les environnements de développement (VSCode, Jupyter, RStudio — prêts en un clic, rien à installer)
-: Compte GitHub/GitLab requis (créer un PAT en amont — expliqué dans le [kit de contribution](pres.html))
+: Compte GitHub/GitLab requis (créer un PAT en amont — expliqué dans le [kit de contribution](git-guide.qmd))
 : Canal Tchap **#ssphub** pour plus d'information
 
 **Restauration**

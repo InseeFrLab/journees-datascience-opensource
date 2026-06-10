@@ -1,0 +1,33 @@
+<%
+// Le HTML émis est relu comme du markdown : pas d'indentation,
+// sinon les lignes deviennent des blocs de code.
+const labels = {
+  doc: "Documentation",
+  bug: "Issues",
+  tests: "Tests",
+  code: "Code",
+  trad: "Traduction",
+  design: "Design"
+};
+%>
+<div class="projets-grid">
+<% for (const item of items) { %>
+<div class="projet-card">
+<h3><%= item.title %></h3>
+<div class="org"><%= item.org %></div>
+<p><%- item.description %></p>
+<div class="badges">
+<% for (const c of (item.contributions ?? [])) { %>
+<span class="badge badge-<%= c.type %>"><%= c.label ?? labels[c.type] ?? c.type %></span>
+<% } %>
+</div>
+<% if ((item.liens ?? []).length) { %>
+<div class="liens">
+<% for (const l of item.liens) { %>
+<a class="repo-link" href="<%= l.url %>" target="_blank" rel="noopener">→ <%= l.texte %></a>
+<% } %>
+</div>
+<% } %>
+</div>
+<% } %>
+</div>

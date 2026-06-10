@@ -1,23 +1,18 @@
-/* ── Base font size ── */
-html {
-  font-size: 11px;
-}
-
 /* ── Variables ── */
 :root {
   --bleu-nuit: #1b3a5b;
   --bleu-clair: #2563eb;
-  --vert-ssp: #16a34a;
-  --orange-ssp: #ea580c;
   --gris-clair: #f8fafc;
   --gris-texte: #475569;
+  --gris-fonce: #334155;
+  --gris-bordure: #e2e8f0;
   --radius: 0.75rem;
   --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* ── Hero ── */
 .hero {
-  background: linear-gradient(135deg, var(--bleu-nuit) 0%, #2563eb 100%);
+  background: linear-gradient(135deg, var(--bleu-nuit) 0%, var(--bleu-clair) 100%);
   color: #fff;
   padding: 4rem 2rem 3rem;
   border-radius: var(--radius);
@@ -112,7 +107,7 @@ html {
 
 .projet-card {
   background: #fff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--gris-bordure);
   border-radius: var(--radius);
   padding: 1.5rem;
   box-shadow: var(--shadow);
@@ -139,7 +134,7 @@ html {
 
 .projet-card p {
   font-size: 0.9rem;
-  color: #334155;
+  color: var(--gris-fonce);
   margin-bottom: 0.75rem;
 }
 
@@ -152,6 +147,13 @@ html {
 
 .projet-card a.repo-link:hover {
   text-decoration: underline;
+}
+
+.projet-card .liens {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 /* ── Badges types de contributions ── */
@@ -201,17 +203,6 @@ html {
   color: #9d174d;
 }
 
-/* ── Section titre ── */
-. {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--bleu-nuit);
-  border-bottom: 3px solid var(--bleu-clair);
-  padding-bottom: 0.5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1.25rem;
-}
-
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .hero h1 {
@@ -222,5 +213,18 @@ html {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+  }
+}
+
+/* ── Accessibilité : animations désactivables ── */
+@media (prefers-reduced-motion: reduce) {
+  .projet-card,
+  .btn-cta {
+    transition: none;
+  }
+
+  .projet-card:hover,
+  .btn-cta:hover {
+    transform: none;
   }
 }
