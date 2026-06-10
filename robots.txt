@@ -1,0 +1,1 @@
+Sitemap: https://InseeFrLab.github.io/journees-datascience-opensource/sitemap.xml
