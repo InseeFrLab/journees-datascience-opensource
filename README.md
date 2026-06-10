@@ -16,20 +16,13 @@ quarto preview   # serveur local avec rechargement automatique
 quarto render    # génère le site dans _site/
 ```
 
-## Organisation des fichiers
+## Déploiement
 
-| Fichier | Rôle |
-|---|---|
-| `_quarto.yml` | Configuration du site (navbar, thème, langue) |
-| `index.qmd` | Page d'accueil (hero, messages clés, cartes projets) |
-| `programme.qmd` | Programme détaillé des deux journées |
-| `sujets.qmd` | Sujets confirmés et types de contributions |
-| `divers.qmd` | Sélection d'issues sur de grands projets open source |
-| `git-guide.qmd` | Guide Git & SSPCloud pour les participants |
-| `intro.qmd`, `pres.qmd` | Slides reveal.js (ouverture, kit de contribution) |
-| `projets.yml` | **Données des projets** (source unique des cartes) |
-| `projets.ejs` | Template de rendu des cartes projets |
-| `styles.css` | Styles personnalisés (hero, cartes, badges) |
+Le site est publié sur GitHub Pages par l'action
+`.github/workflows/publish.yml` à chaque push sur `main` (ou manuellement via
+*Run workflow*). L'action rend le site et pousse le résultat sur la branche
+`gh-pages`.
+
 
 ## Ajouter ou modifier un projet
 
