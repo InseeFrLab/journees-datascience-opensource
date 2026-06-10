@@ -1,0 +1,296 @@
+[
+  {
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "Programme",
+    "section": "",
+    "text": "Le sprint se déroule sur deux jours en présentiel au Lieu de la transformation publique (Paris)."
+  },
+  {
+    "objectID": "programme.html#mardi-16-juin-2026",
+    "href": "programme.html#mardi-16-juin-2026",
+    "title": "Programme",
+    "section": "Mardi 16 juin 2026",
+    "text": "Mardi 16 juin 2026\n\n\n\nHoraire\nActivité\nDétail\n\n\n\n\n9h30 – 10h00\n☕ Accueil & café\nAccueil des participants, installation, badges\n\n\n10h00 – 10h30\n🎤 Ouverture\nOuverture par Sylvain Corlay (CEO Quantstack)\n\n\n10h30 – 10h45\n🎯 Introduction\nRappel du déroulé des journées\n\n\n10h45 – 11h05\n🎯 Pitch des sujets\nChaque sponsor présente son projet en 5 min : problème, stack, contributions attendues\n\n\n11h05 – 11h15\n🔀 Formation des groupes\nLes participants rejoignent leur sujet préféré\n\n\n11h15 – 12h30\n💻 Sprint\nTravail en groupes. Les référents aident à la prise en main et à l’exploration du projet\n\n\n12h30 – 14h00\n🍽️ Déjeuner\nPause conviviale, échanges informels\n\n\n14h00 – 14h15\n🔄 Point d’étape\nTour de table flash : chaque groupe partage son avancement\n\n\n14h15 – 16h30\n💻 Sprint\nPoursuite du travail\n\n\n16h30 – 16h45\n☕ Pause\n\n\n\n16h45 – 17h30\n💻 Sprint\nFinalisation des contributions de la journée"
+  },
+  {
+    "objectID": "programme.html#mercredi-17-juin-2026",
+    "href": "programme.html#mercredi-17-juin-2026",
+    "title": "Programme",
+    "section": "Mercredi 17 juin 2026",
+    "text": "Mercredi 17 juin 2026\n\n\n\n\n\n\n\n\nHoraire\nActivité\nDétail\n\n\n\n\n9h00 – 9h15\n☕ Accueil\nRécapitulatif J-1 et plan de la journée\n\n\n9h15 – 12h00\n💻 Sprint\nTravail en groupes, finalisation des contributions en cours, nouvelles contributions\n\n\n12h00 – 13h30\n🍽️ Déjeuner\n\n\n\n13h30 – 15h30\n💻 Sprint\nDernière session de travail. Finalisation des contributions en cours, nettoyage\n\n\n15h30 – 16h00\n☕ Pause\n\n\n\n16h00 – 17h00\n🎤 Restitution & Clôture\nChaque groupe présente ses contributions (5-10 min). Clôture de la journée"
+  },
+  {
+    "objectID": "programme.html#infos-pratiques",
+    "href": "programme.html#infos-pratiques",
+    "title": "Programme",
+    "section": "Infos pratiques",
+    "text": "Infos pratiques\n\nLieu\n\nLieu de la transformation publique (LTP) — Paris\n\n\nSalle modulable avec prises, WiFi, vidéoprojecteur, paperboard\n\nAccès\n\nIndiquez votre nom, prénom et e-mail professionnel lors de l’inscription pour obtenir l’accès WiFi et un badge visiteur.\n\nOutils\n\nAccès SSPCloud pour les environnements de développement (VSCode, Jupyter, RStudio — prêts en un clic, rien à installer)\n\n\nCompte GitHub/GitLab requis (créer un PAT en amont — expliqué dans le kit de contribution)\n\n\nCanal Tchap #ssphub pour plus d’information\n\nRestauration\n\nCafé d’accueil les deux matins\n\n\nDéjeuners sur place\n\n\nPauses café l’après-midi"
+  },
+  {
+    "objectID": "sujets.html",
+    "href": "sujets.html",
+    "title": "Sujets & Projets",
+    "section": "",
+    "text": "Le sprint vise 4 sujets portés chacun par un·e référent·e volontaire. Les projets ci-dessous sont des projets open source réels, utilisés quotidiennement dans l’écosystème data science du service public."
+  },
+  {
+    "objectID": "sujets.html#sujets-confirmés",
+    "href": "sujets.html#sujets-confirmés",
+    "title": "Sujets & Projets",
+    "section": "Sujets confirmés",
+    "text": "Sujets confirmés\n\n\n\n\nActive Tigger\n\n\nCREST / ENSAE — Emilien Schultz\n\n\nLogiciel open source d'annotation collaborative de textes pour les sciences sociales computationnelles. Intègre l'apprentissage actif, le fine-tuning de classifieurs encodeurs, BERTopic et des outils d'IA générative.\n\n\nDocumentation\nTests\nCode\nIssues\n\n\n→ GitHub\n→ Site\n\n\n\n\nSNDSTools\n\n\nINSEE DEE / Inria / DREES — Matthieu Doutreligne\n\n\nBoîte à outils Python/R pour faciliter l'accès et l'exploitation des données du Système National de Données de Santé (SNDS). Projet co-développé avec des équipes hospitalières et de l'Inria.\n\n\nDocumentation\nIssues\nTests\nExemples\n\n\n→ Site du projet\n\n\n\n\nCanaR\n\n\nCEREQ — Florian Givernaud\n\n\nOutil CLI open source pour déployer en autonomie des chatbots personnalisés avec du RAG. Utilisable en local ou industrialisable en CI/Docker. Extension MCP à l'étude.\n\n\nDocumentation\nCode\nIssues\nTests\n\n\n→ GitHub\n\n\n\n\nUtilitR\n\n\nDREES / OSOL — Julien Blasco\n\n\nDocumentation collaborative de R à destination des agents du Service Statistique Public. Référence de l'écosystème SSP pour l'utilisation de R en pratique professionnelle.\n\n\nDocumentation\nTraduction\nIssues\nExemples\n\n\n→ Lire utilitR\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "sujets.html#sujets-divers",
+    "href": "sujets.html#sujets-divers",
+    "title": "Sujets & Projets",
+    "section": "Sujets divers",
+    "text": "Sujets divers\nEn plus des projets présentés ci-dessus, les participants pourront aussi contribuer de façon individuelle à d’autres projets open source largement utilisés par les data scientists.\nUne liste de projets/sujets potentiels est disponible sur la page suivante (liste bien sûr non exhaustive) : Divers"
+  },
+  {
+    "objectID": "sujets.html#types-de-contributions-accessibles",
+    "href": "sujets.html#types-de-contributions-accessibles",
+    "title": "Sujets & Projets",
+    "section": "Types de contributions accessibles",
+    "text": "Types de contributions accessibles\nContribuer à l’open source ne se limite pas au code. Voici ce que vous pouvez faire, quel que soit votre profil :\n\n\n\n\n\n\n\nType\nCe que c’est\n\n\n\n\n📖 Documentation\nTutoriels, exemples d’usage, correction de docs obsolètes\n\n\n🌐 Traduction\nTraduire des pages de doc en français\n\n\n🐛 Signalement de bugs\nRédiger des issues claires et reproductibles\n\n\n✅ Tests\nAjouter des cas de test, tester sur des données réelles\n\n\n🎨 Design & UX\nAmélioration de messages d’erreur, de la doc utilisateur\n\n\n🧹 Qualité de code\nTypos, linting, refactoring mineur\n\n\n💻 Code\nCorrection de bugs, nouvelles fonctionnalités\n\n\n📊 Données & exemples\nNotebooks de démo, jeux de données d’exemple"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Journées Data Science & Open Source",
+    "section": "",
+    "text": "Un sprint de contribution open source pour les data scientists du service public\n  \n    📅 16–17 juin 2026\n    📍 Lieu de la transformation publique — Paris\n    👥 Réseau SSPHub\n  \n  S'inscrire"
+  },
+  {
+    "objectID": "index.html#lessentiel",
+    "href": "index.html#lessentiel",
+    "title": "Journées Data Science & Open Source",
+    "section": "L’essentiel",
+    "text": "L’essentiel\n\n  \n    🌍\n    Contribuer, c'est pour tout le monde\n    Traduire une page de doc pandas, signaler un bug dans scikit-learn ou améliorer un tutoriel DuckDB — c'est déjà contribuer. Aucun prérequis technique élevé.\n  \n  \n    🔧\n    Améliorons nos outils du quotidien\n    En tant que data scientists du service public, nous utilisons ces projets tous les jours. Nous pouvons aussi en être des contributeurs actifs."
+  },
+  {
+    "objectID": "index.html#quest-ce-que-cest",
+    "href": "index.html#quest-ce-que-cest",
+    "title": "Journées Data Science & Open Source",
+    "section": "Qu’est-ce que c’est ?",
+    "text": "Qu’est-ce que c’est ?\nLe sprint est un événement de 2 jours en présentiel où des data scientists, statisticiens, développeurs et documentalistes du Service Statistique Publique travaillent ensemble sur des projets open source réels.\nL’objectif : démystifier la contribution open source et montrer que tout le monde peut apporter de la valeur à des outils utilisés au quotidien — que ce soit par du code, de la documentation, des tests, de la traduction ou du signalement de bugs.\n\n\n\n\n\n\nNote\n\n\n\nL’ambition est la découverte : explorer le cycle de contribution, se familiariser avec un projet, avancer à son rythme. Que ce soit une issue ouverte, une ligne de doc améliorée ou une PR — tout ce qui est fait compte.\n\n\n\nCe que vous pouvez faire\nLes projets open source ont des besoins très concrets et très accessibles :\n\n\n\n\n\n\n\nType\nExemples\n\n\n\n\n📖 Documentation\nTutoriels, exemples d’usage, correction de docs obsolètes\n\n\n🐛 Signalement de bugs\nRédiger des issues claires et reproductibles\n\n\n✅ Tests\nAjouter des cas de test, tester sur des données réelles\n\n\n🌐 Traduction\nTraduire des pages de documentation en français\n\n\n🧹 Qualité de code\nTypos, linting, refactoring mineur\n\n\n💻 Code\nCorrection de bugs, nouvelles fonctionnalités (profils avancés)"
+  },
+  {
+    "objectID": "index.html#les-projets-au-programme",
+    "href": "index.html#les-projets-au-programme",
+    "title": "Journées Data Science & Open Source",
+    "section": "Les projets au programme",
+    "text": "Les projets au programme\n\n\n\n\nActive Tigger\n\n\nCREST / ENSAE — Emilien Schultz\n\n\nLogiciel open source d'annotation collaborative de textes pour les sciences sociales computationnelles. Intègre l'apprentissage actif, le fine-tuning de classifieurs encodeurs, BERTopic et des outils d'IA générative.\n\n\nDocumentation\nTests\nCode\nIssues\n\n\n→ GitHub\n→ Site\n\n\n\n\nSNDSTools\n\n\nINSEE DEE / Inria / DREES — Matthieu Doutreligne\n\n\nBoîte à outils Python/R pour faciliter l'accès et l'exploitation des données du Système National de Données de Santé (SNDS). Projet co-développé avec des équipes hospitalières et de l'Inria.\n\n\nDocumentation\nIssues\nTests\nExemples\n\n\n→ Site du projet\n\n\n\n\nCanaR\n\n\nCEREQ — Florian Givernaud\n\n\nOutil CLI open source pour déployer en autonomie des chatbots personnalisés avec du RAG. Utilisable en local ou industrialisable en CI/Docker. Extension MCP à l'étude.\n\n\nDocumentation\nCode\nIssues\nTests\n\n\n→ GitHub\n\n\n\n\nUtilitR\n\n\nDREES / OSOL — Julien Blasco\n\n\nDocumentation collaborative de R à destination des agents du Service Statistique Public. Référence de l'écosystème SSP pour l'utilisation de R en pratique professionnelle.\n\n\nDocumentation\nTraduction\nIssues\nExemples\n\n\n→ Lire utilitR\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "index.html#comment-ça-se-passe",
+    "href": "index.html#comment-ça-se-passe",
+    "title": "Journées Data Science & Open Source",
+    "section": "Comment ça se passe ?",
+    "text": "Comment ça se passe ?\n\nChoisissez un sujet lors des pitchs du mardi matin (5 min par projet)\nRejoignez un groupe avec un référent qui guide et débloque\nContribuez : les issues sont pré-identifiées, les environnements SSPCloud prêts\nPartagez lors de la restitution finale le mercredi après-midi"
+  },
+  {
+    "objectID": "index.html#infos-pratiques",
+    "href": "index.html#infos-pratiques",
+    "title": "Journées Data Science & Open Source",
+    "section": "Infos pratiques",
+    "text": "Infos pratiques\n\n\n\nDates\nMardi 16 et mercredi 17 juin 2026\n\n\nLieu\nLieu de la transformation publique, Paris\n\n\nPublic\nAgents du Service Statistique Public (SSP)\n\n\nInscription\nVia formulaire Grist (lien envoyé par SSPHub)\n\n\nPrérequis\nCompte GitHub, motivation — c’est tout\n\n\n\n\n\n\n\n\n\nQuestions ? Rejoignez le canal #ssphub sur Tchap ou contactez l’équipe SSPHub."
+  },
+  {
+    "objectID": "divers.html",
+    "href": "divers.html",
+    "title": "Contribution libre",
+    "section": "",
+    "text": "Cette page est pour les participants qui souhaitent contribuer à un projet hors des sujets sponsorisés du sprint, ou qui veulent explorer d’autres projets de l’écosystème data science."
+  },
+  {
+    "objectID": "divers.html#comment-utiliser-ce-document",
+    "href": "divers.html#comment-utiliser-ce-document",
+    "title": "Contribution libre",
+    "section": "Comment utiliser ce document",
+    "text": "Comment utiliser ce document\nCette sélection vise à démystifier la contribution : la plupart des tâches utiles ne sont pas du code algorithmique complexe, mais de la documentation, des tests, du triage et de petits correctifs. Le sprint est un espace pour explorer à son rythme — une issue commentée, une ligne de doc améliorée, une PR ouverte : tout ce qui avance compte.\n\n\n\n\n\n\nAvertissement\n\n\n\nAvant de vous lancer :\n\nlisez le fil de l’issue (quelqu’un est-il déjà dessus ?) ;\ncommentez « je prends » / « I’d like to work on this » pour réserver ;\nlisez le CONTRIBUTING.md du projet (il répond à 80 % des questions)."
+  },
+  {
+    "objectID": "divers.html#scipy",
+    "href": "divers.html#scipy",
+    "title": "Contribution libre",
+    "section": "SciPy",
+    "text": "SciPy\nDépôt : scipy/scipy · Label : good first issue\n\n#19389 — Réparer des benchmarks désactivés ou cassés\n#7168 — Compléter les docstrings sans section « Examples » — un sous-cas par personne\n#16601 — Optimiser l’assignation dans les matrices creuses plutôt que de les densifier\n#17387 — Bug : freqz ne fonctionne pas sur les tableaux multidimensionnels malgré la doc"
+  },
+  {
+    "objectID": "divers.html#matplotlib",
+    "href": "divers.html#matplotlib",
+    "title": "Contribution libre",
+    "section": "Matplotlib",
+    "text": "Matplotlib\nDépôt : matplotlib/matplotlib · Label : good first issue\n\n#20243 — Bug : eventplot n’affiche pas toutes les données pour un grand nombre d’événements\n#17479 — Ajouter les vignettes manquantes aux tutoriels / à la galerie\n#22803 — Bug / perf : taille de fichier excessive avec fill_between()\n#17775 — Cloner davantage de réglages de légende lors de la régénération dans la boîte de dialogue Qt"
+  },
+  {
+    "objectID": "divers.html#scikit-learn",
+    "href": "divers.html#scikit-learn",
+    "title": "Contribution libre",
+    "section": "scikit-learn",
+    "text": "scikit-learn\nDépôt : scikit-learn/scikit-learn · Label : Moderate\n\n#21138 — Ajouter un exemple illustrant les métriques de ranking\n#14953 — Handle pd.Categorical dans les encodeurs\n#14228 — Améliorer la documentation de n_jobs\n#29600 — Étendre les fonctions de perte de SGDRegressor (Poisson, apprentissage incrémental)"
+  },
+  {
+    "objectID": "divers.html#pandas",
+    "href": "divers.html#pandas",
+    "title": "Contribution libre",
+    "section": "pandas",
+    "text": "pandas\nDépôt : pandas-dev/pandas · Label : Docs\n\n#48423 — Documenter les kwargs de compatibilité NumPy\n#65813 — Type « quoting » mal formé dans la doc de read_csv\n#53675 — to_string / float_format : comportement incohérent avec la documentation\n#53268 — La compilation d’un seul fichier de doc échoue pour SeriesGroupBy / DataFrameGroupBy"
+  },
+  {
+    "objectID": "divers.html#xarray",
+    "href": "divers.html#xarray",
+    "title": "Contribution libre",
+    "section": "xarray",
+    "text": "xarray\nDépôt : pydata/xarray · Label : contrib-good-first-issue\n\n#11344 — Échec de chargement signalé — à reproduire\n#11323 — Régression : la 2026.4.0 casse le pickling avec le backend scipy\n#8239 — Traiter les suggestions de l’outil repo-review (outillage / configuration)\n#1346 — Bug numérique : moyenne erronée sur un tableau float32 (via bottleneck)"
+  },
+  {
+    "objectID": "divers.html#sympy",
+    "href": "divers.html#sympy",
+    "title": "Contribution libre",
+    "section": "SymPy",
+    "text": "SymPy\nDépôt : sympy/sympy · Label : Easy to Fix\n\n#27888 — refine ne parvient pas à effectuer plusieurs simplifications\n#15331 — Remplacer l’ascii-art des poutres par des images SVG\n#28470 — Exposer la doc de LLVMPrinter / llvm_callable dans Sphinx\n#11345 — Supporter l’ellipsis dans le slicing de matrices"
+  },
+  {
+    "objectID": "divers.html#statsmodels",
+    "href": "divers.html#statsmodels",
+    "title": "Contribution libre",
+    "section": "statsmodels",
+    "text": "statsmodels\nDépôt : statsmodels/statsmodels · Label : good first issue\n\n#6159 — Améliorer les estimateurs de type ARIMA\n#4269 — Simplifier le calcul GLM dans le cas canonique\n#8807 — Améliorer et réorganiser les docstrings de robust.norms\n#771 — Classe de statistiques pondérées pour objets pandas"
+  },
+  {
+    "objectID": "divers.html#dask",
+    "href": "divers.html#dask",
+    "title": "Contribution libre",
+    "section": "Dask",
+    "text": "Dask\nDépôt : dask/dask · Label : good first issue\n\n#9158 — Mettre à jour des tests pour utiliser l’argument sort_results\n#9187 — Standardiser la doc des incompatibilités connues de l’API dask.dataframe\n#11047 — Ajouter des annotations de type statiques\n#2629 — Implémenter l’équivalent de scipy.integrate.simps"
+  },
+  {
+    "objectID": "divers.html#hugging-face-transformers",
+    "href": "divers.html#hugging-face-transformers",
+    "title": "Contribution libre",
+    "section": "Hugging Face Transformers",
+    "text": "Hugging Face Transformers\nDépôt : huggingface/transformers · Label : Good Second Issue\n\n#46032 — Bug : Mamba2Mixer produit des résultats erronés avec use_cache et seq_len &gt; 1\n#26350 — Ajouter Flash Attention 2 à d’autres architectures — une archi par personne\n#33260 — Ajouter le support GGUF à d’autres architectures\n#30064 — Bug : l’Image Processor échoue sur les cartes de segmentation vides"
+  },
+  {
+    "objectID": "divers.html#polars",
+    "href": "divers.html#polars",
+    "title": "Contribution libre",
+    "section": "Polars",
+    "text": "Polars\nDépôt : pola-rs/polars · Label : good first issue\n\n#26290 — Bug : prédicat de skip ignoré pour le dtype booléen dans scan_delta\n#21898 — Permettre à pl.datetime d’échouer silencieusement\n#19266 — Ajouter add_filename à read_csv (et autres lecteurs)\n#2994 — Implémenter le lecteur/écrivain ODBC d’Arrow2"
+  },
+  {
+    "objectID": "divers.html#mlflow",
+    "href": "divers.html#mlflow",
+    "title": "Contribution libre",
+    "section": "MLflow",
+    "text": "MLflow\nDépôt : mlflow/mlflow · Label : good first issue\n\n#23061 — Relever les versions minimales des dépendances ayant des CVE connues\n#20703 — Bug UI : les artefacts (graphes) ne sont pas mis à l’échelle dans la vue comparaison"
+  },
+  {
+    "objectID": "divers.html#gradio",
+    "href": "divers.html#gradio",
+    "title": "Contribution libre",
+    "section": "Gradio",
+    "text": "Gradio\nDépôt : gradio-app/gradio · Label : good first issue\n\n#8826 — Supporter le format de données pointcloud pour Model3D"
+  },
+  {
+    "objectID": "divers.html#duckdb",
+    "href": "divers.html#duckdb",
+    "title": "Contribution libre",
+    "section": "DuckDB",
+    "text": "DuckDB\nDépôt : duckdb/duckdb · Label : needs reproducible example\n\nhttps://github.com/duckdb/duckdb/discussions/5431 : Une discussion pour l’ajout des poids dans les fonctions duckdb (weighted_avg existe déjà et pourrait servir de base)\n#19712 — Reproduire : erreur au rejeu d’un fichier WAL sans base par défaut\n#22776 — Reproduire : DISTINCT + ORDER BY DESC + LIMIT ne renvoie qu’une ligne sur de grandes tables\n#19871 — Reproduire : read_parquet avec jokers échoue quand de nouveaux fichiers sont écrits\n#22399 — Améliorer un message d’erreur peu détaillé sur une colonne manquante"
+  },
+  {
+    "objectID": "divers.html#pour-trouver-dautres-issues",
+    "href": "divers.html#pour-trouver-dautres-issues",
+    "title": "Contribution libre",
+    "section": "Pour trouver d’autres issues",
+    "text": "Pour trouver d’autres issues\n\n\n\nRessource\nDescription\n\n\n\n\ngoodfirstissue.dev\nFiltre par langage\n\n\ngoodfirstissues.com\nAgrège le label good first issue en direct\n\n\nup-for-grabs.net\nPar langage et projet\n\n\nRecherche GitHub\nis:open is:issue label:\"good first issue\" language:python sort:updated-desc"
+  },
+  {
+    "objectID": "intro.html#pourquoi-ce-sprint",
+    "href": "intro.html#pourquoi-ce-sprint",
+    "title": "Journées Data Science & Open Source",
+    "section": "Pourquoi ce sprint ?",
+    "text": "Pourquoi ce sprint ?\nLe réseau SSPHub — la communauté des data scientists du Service Statistique Public (730+ agents : INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…). Nous utilisons ces outils open source tous les jours — nous pouvons aussi les améliorer.\n\nOn se dit souvent : « je ne suis pas assez expert·e », « mon code n’est pas assez propre »\nLa réalité : les projets ont besoin de contributions, et les portes d’entrée sont accessibles à tous — doc, traduction, tests comptent autant que le code\n\n\n\n\n\n\n\n\nL’objectif du sprint : démystifier la contribution. Le plus dur n’est pas le code — c’est de boucler une fois le cycle complet."
+  },
+  {
+    "objectID": "intro.html#le-programme",
+    "href": "intro.html#le-programme",
+    "title": "Journées Data Science & Open Source",
+    "section": "Le programme",
+    "text": "Le programme\n\n\nMardi 16 juin\n\n\n\nHoraire\n\n\n\n\n\n9h30\n☕ Accueil & café\n\n\n10h00\n🎤 Ouverture\n\n\n10h30\n🎯 Introduction (vous y êtes)\n\n\n10h45\n🎯 Pitch des sujets\n\n\n11h05\n🔀 Formation des groupes\n\n\n11h15–17h30\n💻 Sprint (3 sessions)\n\n\n\n\nMercredi 17 juin\n\n\n\nHoraire\n\n\n\n\n\n9h00\n☕ Accueil\n\n\n9h15–15h30\n💻 Sprint (2 sessions)\n\n\n16h00–17h00\n🎤 Restitution & Clôture"
+  },
+  {
+    "objectID": "intro.html#les-projets-du-sprint",
+    "href": "intro.html#les-projets-du-sprint",
+    "title": "Journées Data Science & Open Source",
+    "section": "Les projets du sprint",
+    "text": "Les projets du sprint\n\n  \n    Active Tigger\n    Annotation collaborative de textes avec apprentissage actif.\n    Emilien Schultz — CREST / ENSAE · github.com/emilienschultz/activetigger\n  \n  \n    SNDSTools\n    Boîte à outils Python/R pour les données de santé (SNDS).\n    Matthieu Doutreligne — INSEE DEE · sndstoolers.github.io/sndsTools\n  \n  \n    CanaR\n    CLI pour déployer des chatbots RAG, en local ou en CI/Docker.\n    Florian Givernaud — CEREQ · github.com/Romanovytch/canar\n  \n  \n    UtilitR\n    La documentation collaborative de R pour le service public.\n    Julien Blasco — DREES / OSOL · www.book.utilitr.org\n  \n\n\n\n\n\n\n\n\nPitchs détaillés à 10h45 — 5 minutes par projet, puis vous choisissez votre groupe."
+  },
+  {
+    "objectID": "intro.html#contribuer-cest-quoi",
+    "href": "intro.html#contribuer-cest-quoi",
+    "title": "Journées Data Science & Open Source",
+    "section": "Contribuer, c’est quoi ?",
+    "text": "Contribuer, c’est quoi ?\n\n📖 Documentation — tutoriels, exemples, correction de docs obsolètes\n🌐 Traduction — une page de doc pandas en français\n🐛 Signalement de bugs — rédiger une issue claire et reproductible\n✅ Tests — ajouter des cas de test, tester sur des données réelles\n🎨 Design & UX — améliorer les messages d’erreur, la doc utilisateur\n🧹 Qualité — typos, linting, refactoring mineur\n💻 Code — correction de bugs, nouvelles fonctionnalités (profils avancés)\n\n\n\n\n\n\n\n\nAstuce\n\n\nTout compte. Une traduction de deux paragraphes aide des milliers d’utilisateurs."
+  },
+  {
+    "objectID": "intro.html#avant-de-contribuer",
+    "href": "intro.html#avant-de-contribuer",
+    "title": "Journées Data Science & Open Source",
+    "section": "Avant de contribuer",
+    "text": "Avant de contribuer\n📖 Lisez le CONTRIBUTING.md du projet — toujours, avant la première ligne. Chaque projet a ses conventions (style, branches, tests, format des PR) ; les suivre, c’est le meilleur moyen d’être mergé.\n\n🙋 Annoncez ce que vous prenez — commentez « je prends » sur l’issue avant de commencer\n🧩 Une issue à la fois, des PR petites et focalisées (une PR = une chose)\n🆘 Demandez de l’aide — les référents et aidants sont là pour ça\n💬 Bienveillance & patience — respectez le Code of Conduct ; la review peut prendre du temps, c’est normal\n\n\n\n\n\n\n\n\nPas d’objectif chiffré. Chacun avance à son rythme — l’exploration et la découverte comptent autant que la contribution soumise."
+  },
+  {
+    "objectID": "intro.html#et-lia-dans-tout-ça",
+    "href": "intro.html#et-lia-dans-tout-ça",
+    "title": "Journées Data Science & Open Source",
+    "section": "Et l’IA dans tout ça ?",
+    "text": "Et l’IA dans tout ça ?\n\n🧭 Chaque projet a sa propre politique — vérifiez le CONTRIBUTING.md et la doc avant d’utiliser un assistant IA\n📣 Certains projets refusent les contributions générées par IA, d’autres demandent de déclarer leur usage dans la PR\n🧠 Vous restez responsable de ce que vous soumettez : comprendre, tester et relire chaque ligne\n⚖️ Pas de PR générées en masse — qualité avant quantité, respectez le temps des mainteneurs\n\n\n\n\n\n\n\n\nEn cas de doute sur la politique IA d’un projet, demandez au référent."
+  },
+  {
+    "objectID": "intro.html#ce-dont-vous-avez-besoin",
+    "href": "intro.html#ce-dont-vous-avez-besoin",
+    "title": "Journées Data Science & Open Source",
+    "section": "Ce dont vous avez besoin",
+    "text": "Ce dont vous avez besoin\n\n✅ Compte GitHub + Personal Access Token (PAT) créé\n✅ SSPCloud — VSCode, Jupyter ou RStudio prêts dans le navigateur sur datalab.sspcloud.fr, rien à installer en local\n✅ Token GitHub enregistré dans SSPCloud (Mon compte → Services externes)\n✅ Canal Tchap #sprint-oss rejoint pour la coordination\n✅ Issue choisie et réservée après les pitchs\n\n\n\n\n\n\n\n\nBesoin d’aide pour la config ? Les aidants sont là dès maintenant — levez la main ! La suite (fork, branches, PR, rebase, guidelines) est dans le kit de contribution."
+  },
+  {
+    "objectID": "git-guide.html",
+    "href": "git-guide.html",
+    "title": "Guide Git & SSPCloud",
+    "section": "",
+    "text": "Ce guide couvre deux choses : configurer Git sur SSPCloud pour ne jamais ressaisir vos identifiants, et les commandes Git essentielles pour contribuer à un projet open source via le modèle fork → PR."
+  },
+  {
+    "objectID": "git-guide.html#accès-sspcloud-et-token-github",
+    "href": "git-guide.html#accès-sspcloud-et-token-github",
+    "title": "Guide Git & SSPCloud",
+    "section": "1. Accès SSPCloud et token GitHub",
+    "text": "1. Accès SSPCloud et token GitHub\nSSPCloud (le datalab INSEE basé sur Onyxia) met à disposition des environnements de développement prêts à l’emploi dans le navigateur — VSCode, Jupyter, RStudio — sans rien installer en local. Git y est déjà disponible.\n\nÉtape 1 — Créer un Personal Access Token (PAT) sur GitHub\nUn PAT remplace votre mot de passe GitHub pour les opérations Git en ligne de commande.\n\nSur GitHub, allez dans Settings → Developer settings → Personal access tokens → Tokens (classic)\nCliquez Generate new token (classic)\nDonnez-lui un nom (ex. sspcloud-sprint), une expiration (90 jours suffisent)\nCochez la portée repo (accès complet à vos dépôts)\nCliquez Generate token et copiez le token — il ne sera affiché qu’une seule fois\n\n\n\n\n\n\n\nAvertissement\n\n\n\nCopiez le token immédiatement. Vous ne pourrez plus le voir après avoir quitté la page.\n\n\n→ Documentation officielle GitHub — Créer un PAT\n\n\nÉtape 2 — Enregistrer le token dans SSPCloud\n\nSur datalab.sspcloud.fr, cliquez sur votre avatar en haut à droite → Mon compte\nAllez dans l’onglet Services externes\nRenseignez :\n\nIdentifiant Git : votre nom d’utilisateur GitHub\nToken Git : le PAT que vous venez de copier\nNom affiché dans les commits : votre prénom et nom\nE-mail Git : l’e-mail associé à votre compte GitHub\n\n\n\n\nÉtape 3 — Lancer un service avec Git configuré\n\nSur SSPCloud, ouvrez le catalogue et lancez VSCode (ou Jupyter / RStudio)\nDans les options de lancement, l’onglet Git propose de pré-configurer Git avec vos identifiants enregistrés — activez-le\nEntrez l’URL de votre fork pour le cloner automatiquement au démarrage\n\n\n\n\n\n\n\nAstuce\n\n\n\nRésultat : vous pouvez cloner, committer et pousser vers votre fork sans jamais ressaisir vos identifiants dans le terminal.\n\n\n→ Documentation SSPCloud"
+  },
+  {
+    "objectID": "git-guide.html#commandes-git-essentielles",
+    "href": "git-guide.html#commandes-git-essentielles",
+    "title": "Guide Git & SSPCloud",
+    "section": "2. Commandes Git essentielles",
+    "text": "2. Commandes Git essentielles\nVoici le cycle complet d’une contribution, du fork à la PR mergée.\n\n\n\n\n\n\nImportant\n\n\n\nLes projets open source disposent en général d’un document de bonnes pratiques pour les contributions (souvent un fichier CONTRIBUTING.md à la racine du dépôt), il est important d’en suivre les recommandations.\n\n\n\nFork et clone\nCommencez par forker le projet sur GitHub (bouton “Fork” en haut à droite de la page du dépôt), puis clonez votre fork :\n# Cloner son fork (remplacer &lt;moi&gt; et &lt;projet&gt;)\ngit clone https://github.com/&lt;moi&gt;/&lt;projet&gt;.git\ncd &lt;projet&gt;\n\n# Déclarer le dépôt d'origine comme \"upstream\"\ngit remote add upstream https://github.com/&lt;orga&gt;/&lt;projet&gt;.git\n\n# Vérifier : origin = votre fork, upstream = projet officiel\ngit remote -v\n\n\nCréer une branche de travail\nNe travaillez jamais directement sur main. Une branche par contribution :\n# Mettre à jour son main local avant de brancher\ngit switch main\ngit fetch upstream\ngit rebase upstream/main\n\n# Créer une branche (nom descriptif)\ngit switch -c docs/corrige-coquille-readme\n# ou : git switch -c fix/bug-parsing-csv\n\n\nTravailler et committer\n# Voir l'état des fichiers modifiés\ngit status\n\n# Ajouter les modifications de façon sélective (recommandé)\ngit add -p\n\n# Ou ajouter un fichier spécifique\ngit add chemin/vers/fichier.py\n\n# Créer un commit avec un message clair\ngit commit -m \"DOC: corrige une coquille dans le README\"\n\n# Conventions de message fréquentes :\n# DOC: / DOCS: → documentation\n# BUG: / FIX:  → correction de bug\n# ENH: / FEAT: → nouvelle fonctionnalité\n# TST: / TEST: → tests\n# STY:         → style / formatage\n\n\nPousser et ouvrir la Pull Request\n# Pousser la branche sur son fork\ngit push -u origin docs/corrige-coquille-readme\nGitHub affiche alors un bandeau “Compare & pull request”. Remplissez : - Un titre clair et court - Une description : quoi et pourquoi - Le lien vers l’issue : Closes #1234\n\n\nMettre à jour son fork (rebase)\nLe projet avance pendant que vous travaillez. Avant (et pendant) la review, synchronisez votre branche :\ngit fetch upstream\ngit switch docs/corrige-coquille-readme\ngit rebase upstream/main\n\n# En cas de conflit : éditez les fichiers, puis\ngit add &lt;fichiers-résolus&gt;\ngit rebase --continue\nAprès un rebase, le push normal est refusé — utilisez :\n# Force-push sécurisé (refuse d'écraser des commits non vus)\ngit push --force-with-lease\n\n\nCommandes de diagnostic utiles\n# Historique compact\ngit log --oneline -10\n\n# Voir les différences non commitées\ngit diff\n\n# Voir les différences entre votre branche et upstream/main\ngit diff upstream/main...HEAD\n\n# Annuler le dernier commit (en gardant les modifications)\ngit reset HEAD~1\n\n# Voir à quoi ressemble un fichier à un commit précédent\ngit show HEAD~2:chemin/vers/fichier.py"
+  },
+  {
+    "objectID": "git-guide.html#aide-mémoire-rapide",
+    "href": "git-guide.html#aide-mémoire-rapide",
+    "title": "Guide Git & SSPCloud",
+    "section": "3. Aide-mémoire rapide",
+    "text": "3. Aide-mémoire rapide\n\n\n\n\n\n\n\nSituation\nCommande\n\n\n\n\nVoir l’état du dépôt\ngit status\n\n\nMettre à jour depuis upstream\ngit fetch upstream && git rebase upstream/main\n\n\nNouvelle branche\ngit switch -c nom-branche\n\n\nCommitter tout\ngit add -A && git commit -m \"message\"\n\n\nPousser (première fois)\ngit push -u origin nom-branche\n\n\nForce-push après rebase\ngit push --force-with-lease\n\n\nAnnuler modifications locales\ngit restore fichier.py\n\n\nVoir les remotes\ngit remote -v"
+  },
+  {
+    "objectID": "git-guide.html#ressources-officielles",
+    "href": "git-guide.html#ressources-officielles",
+    "title": "Guide Git & SSPCloud",
+    "section": "4. Ressources officielles",
+    "text": "4. Ressources officielles\n\n\n\nRessource\nDescription\n\n\n\n\nPro Git (fr)\nRéférence complète de Git, en français, gratuite\n\n\nGitHub Docs — Fork a repo\nGuide officiel GitHub pour forker\n\n\nGitHub Docs — Créer un PAT\nCréer un Personal Access Token\n\n\nGitHub Docs — Pull requests\nTout sur les Pull Requests\n\n\nDocumentation SSPCloud\nUtiliser le datalab INSEE\n\n\nOh Shit, Git!? (fr)\nDépannage Git en langage courant\n\n\nLearn Git Branching\nTutoriel interactif sur les branches (recommandé débutants)\n\n\n\n\n\n\n\n\n\nAstuce\n\n\n\nBloqué ? Les animateurs du sprint sont là pour ça — levez la main, c’est fait pour."
+  }
+]
