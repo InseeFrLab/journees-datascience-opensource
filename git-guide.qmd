@@ -1,0 +1,199 @@
+---
+title: "Guide Git & SSPCloud"
+subtitle: "Configurer son environnement et contribuer étape par étape"
+---
+
+Ce guide couvre deux choses : **configurer Git sur SSPCloud** pour ne jamais ressaisir vos identifiants, et les **commandes Git essentielles** pour contribuer à un projet open source via le modèle fork → PR.
+
+---
+
+## 1. Accès SSPCloud et token GitHub
+
+[SSPCloud](https://datalab.sspcloud.fr) (le datalab INSEE basé sur Onyxia) met à disposition des environnements de développement prêts à l'emploi dans le navigateur — VSCode, Jupyter, RStudio — sans rien installer en local. Git y est déjà disponible.
+
+### Étape 1 — Créer un Personal Access Token (PAT) sur GitHub
+
+Un PAT remplace votre mot de passe GitHub pour les opérations Git en ligne de commande.
+
+1. Sur GitHub, allez dans **Settings → Developer settings → Personal access tokens → Tokens (classic)**
+2. Cliquez **Generate new token (classic)**
+3. Donnez-lui un nom (ex. `sspcloud-sprint`), une expiration (90 jours suffisent)
+4. Cochez la portée **`repo`** (accès complet à vos dépôts)
+5. Cliquez **Generate token** et **copiez le token** — il ne sera affiché qu'une seule fois
+
+::: {.callout-warning}
+Copiez le token immédiatement. Vous ne pourrez plus le voir après avoir quitté la page.
+:::
+
+→ [Documentation officielle GitHub — Créer un PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+### Étape 2 — Enregistrer le token dans SSPCloud
+
+1. Sur [datalab.sspcloud.fr](https://datalab.sspcloud.fr), cliquez sur votre avatar en haut à droite → **Mon compte**
+2. Allez dans l'onglet **Services externes**
+3. Renseignez :
+   - **Identifiant Git** : votre nom d'utilisateur GitHub
+   - **Token Git** : le PAT que vous venez de copier
+   - **Nom affiché dans les commits** : votre prénom et nom
+   - **E-mail Git** : l'e-mail associé à votre compte GitHub
+
+### Étape 3 — Lancer un service avec Git configuré
+
+1. Sur SSPCloud, ouvrez le catalogue et lancez **VSCode** (ou Jupyter / RStudio)
+2. Dans les options de lancement, l'onglet **Git** propose de pré-configurer Git avec vos identifiants enregistrés — activez-le
+3. Entrez l'URL de votre fork pour le cloner automatiquement au démarrage
+
+::: {.callout-tip}
+Résultat : vous pouvez cloner, committer et pousser vers votre fork **sans jamais ressaisir vos identifiants** dans le terminal.
+:::
+
+→ [Documentation SSPCloud](https://docs.sspcloud.fr)
+
+---
+
+## 2. Commandes Git essentielles
+
+Voici le cycle complet d'une contribution, du fork à la PR mergée.
+
+::: {.callout-important}
+Les projets opensource disposent en général d'un documentde bonnes pratiques pour les contributions (souvent un fichier `CONTRIBUTING.md` à la racine du dépôt), il est important d'en suivre les recommandations.
+:::
+
+### Fork et clone
+
+Commencez par **forker** le projet sur GitHub (bouton "Fork" en haut à droite de la page du dépôt), puis clonez **votre fork** :
+
+```bash
+# Cloner son fork (remplacer <moi> et <projet>)
+git clone https://github.com/<moi>/<projet>.git
+cd <projet>
+
+# Déclarer le dépôt d'origine comme "upstream"
+git remote add upstream https://github.com/<orga>/<projet>.git
+
+# Vérifier : origin = votre fork, upstream = projet officiel
+git remote -v
+```
+
+### Créer une branche de travail
+
+Ne travaillez **jamais directement sur `main`**. Une branche par contribution :
+
+```bash
+# Mettre à jour son main local avant de brancher
+git switch main
+git fetch upstream
+git rebase upstream/main
+
+# Créer une branche (nom descriptif)
+git switch -c docs/corrige-coquille-readme
+# ou : git switch -c fix/bug-parsing-csv
+```
+
+### Travailler et committer
+
+```bash
+# Voir l'état des fichiers modifiés
+git status
+
+# Ajouter les modifications de façon sélective (recommandé)
+git add -p
+
+# Ou ajouter un fichier spécifique
+git add chemin/vers/fichier.py
+
+# Créer un commit avec un message clair
+git commit -m "DOC: corrige une coquille dans le README"
+
+# Conventions de message fréquentes :
+# DOC: / DOCS: → documentation
+# BUG: / FIX:  → correction de bug
+# ENH: / FEAT: → nouvelle fonctionnalité
+# TST: / TEST: → tests
+# STY:         → style / formatage
+```
+
+### Pousser et ouvrir la Pull Request
+
+```bash
+# Pousser la branche sur son fork
+git push -u origin docs/corrige-coquille-readme
+```
+
+GitHub affiche alors un bandeau **"Compare & pull request"**. Remplissez :
+- Un titre clair et court
+- Une description : *quoi* et *pourquoi*
+- Le lien vers l'issue : `Closes #1234`
+
+### Mettre à jour son fork (rebase)
+
+Le projet avance pendant que vous travaillez. Avant (et pendant) la review, synchronisez votre branche :
+
+```bash
+git fetch upstream
+git switch docs/corrige-coquille-readme
+git rebase upstream/main
+
+# En cas de conflit : éditez les fichiers, puis
+git add <fichiers-résolus>
+git rebase --continue
+```
+
+Après un rebase, le push normal est refusé — utilisez :
+
+```bash
+# Force-push sécurisé (refuse d'écraser des commits non vus)
+git push --force-with-lease
+```
+
+### Commandes de diagnostic utiles
+
+```bash
+# Historique compact
+git log --oneline -10
+
+# Voir les différences non commitées
+git diff
+
+# Voir les différences entre votre branche et upstream/main
+git diff upstream/main...HEAD
+
+# Annuler le dernier commit (en gardant les modifications)
+git reset HEAD~1
+
+# Voir à quoi ressemble un fichier à un commit précédent
+git show HEAD~2:chemin/vers/fichier.py
+```
+
+---
+
+## 3. Aide-mémoire rapide
+
+| Situation                     | Commande                                         |
+|-------------------------------|--------------------------------------------------|
+| Voir l'état du dépôt          | `git status`                                     |
+| Mettre à jour depuis upstream | `git fetch upstream && git rebase upstream/main` |
+| Nouvelle branche              | `git switch -c nom-branche`                      |
+| Committer tout                | `git add -A && git commit -m "message"`          |
+| Pousser (première fois)       | `git push -u origin nom-branche`                 |
+| Force-push après rebase       | `git push --force-with-lease`                    |
+| Annuler modifications locales | `git restore fichier.py`                         |
+| Voir les remotes              | `git remote -v`                                  |
+
+---
+
+## 4. Ressources officielles
+
+| Ressource                                                                                                                                                                      | Description                                                 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [Pro Git (fr)](https://git-scm.com/book/fr/v2)                                                                                                                                 | Référence complète de Git, en français, gratuite            |
+| [GitHub Docs — Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)                                                                                     | Guide officiel GitHub pour forker                           |
+| [GitHub Docs — Créer un PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)                                  | Créer un Personal Access Token                              |
+| [GitHub Docs — Pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) | Tout sur les Pull Requests                                  |
+| [Documentation SSPCloud](https://docs.sspcloud.fr)                                                                                                                             | Utiliser le datalab INSEE                                   |
+| [Oh Shit, Git!? (fr)](https://ohshitgit.com/fr)                                                                                                                                | Dépannage Git en langage courant                            |
+| [Learn Git Branching](https://learngitbranching.js.org/?locale=fr_FR)                                                                                                          | Tutoriel interactif sur les branches (recommandé débutants) |
+
+::: {.callout-tip}
+**Bloqué ?** Les animateurs du sprint sont là pour ça — levez la main, c'est fait pour.
+:::

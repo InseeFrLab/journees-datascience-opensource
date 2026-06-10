@@ -1,0 +1,63 @@
+---
+title: "Programme"
+---
+
+Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transformation publique (Paris).
+
+::: {.callout-note}
+**Format** : travail en petits groupes autour d'un projet, guidés par un référent volontaire. Les contributions sont réelles — issues, PR, documentation — sur des projets open source utilisés par la communauté data science.
+:::
+
+---
+
+## Lundi 16 juin 2026
+
+| Horaire       | Activité                 | Détail                                                                                   |
+|---------------|-------------------------|------------------------------------------------------------------------------------------|
+| 9h30 – 10h00  | ☕ Accueil & café       | Accueil des participants, installation, badges                                          |
+| 10h00 – 10h30 | 🎤 Ouverture             | Ouverture par Sylvain Corlay (CEO [Quantstack](https://quantstack.net/))                 |
+| 10h30 – 10h45 | 🎯 Introduction          | Rappel du déroulé des journées                                                           |
+| 10h45 – 11h05 | 🎯 Pitch des sujets      | Chaque sponsor présente son projet en 5 min : problème, stack, contributions attendues   |
+| 11h05 – 11h15 | 🔀 Formation des groupes | Les participants rejoignent leur sujet préféré                                           |
+| 11h15 – 12h30 | 💻 Sprint    | Travail en groupes. Les référents aident à la prise en main et à l'exploration du projet |
+| 12h30 – 14h00 | 🍽️ Déjeuner              | Pause conviviale, échanges informels                                                     |
+| 14h00 – 14h15 | 🔄 Point d'étape         | Tour de table flash : chaque groupe partage son avancement                               |
+| 14h15 – 16h30 | 💻 Sprint    | Poursuite du travail                                                                     |
+| 16h30 – 16h45 | ☕ Pause                  |                                                                                         |
+| 16h45 – 17h30 | 💻 Sprint    | Finalisation des contributions de la journée                                             |
+
+---
+
+## Mardi 17 juin 2026
+
+| Horaire       | Activité                 | Détail                                                                               |
+|---------------|--------------------------|--------------------------------------------------------------------------------------|
+| 9h00 – 9h15   | ☕ Accueil                | Récapitulatif J-1 et plan de la journée                                              |
+| 9h15 – 12h00  | 💻 Sprint    | Travail en groupes, finalisation des contributions en cours, nouvelles contributions |
+| 12h00 – 13h30 | 🍽️ Déjeuner              |                                                                                      |
+| 13h30 – 15h30 | 💻 Sprint    | Dernière session de travail. Finalisation des contributions en cours, nettoyage      |
+| 15h30 – 16h00 | ☕ Pause                  |                                                                                      |
+| 16h00 – 17h00 | 🎤 Restitution & Clôture | Chaque groupe présente ses contributions (5-10 min). Clôture de la journée           |
+
+
+
+---
+
+## Infos pratiques
+
+**Lieu**
+: Lieu de la transformation publique (LTP) — Paris
+: Salle modulable avec prises, WiFi, vidéoprojecteur, paperboard
+
+**Accès**
+: Indiquez votre nom, prénom et e-mail professionnel lors de l'inscription pour obtenir l'accès WiFi et un badge visiteur.
+
+**Outils**
+: Accès [SSPCloud](https://datalab.sspcloud.fr) pour les environnements de développement (VSCode, Jupyter, RStudio — prêts en un clic, rien à installer)
+: Compte GitHub/GitLab requis (créer un PAT en amont — expliqué dans le [kit de contribution](pres.html))
+: Canal Tchap **#ssphub** pour plus d'information
+
+**Restauration**
+: Café d'accueil les deux matins
+: Déjeuners sur place
+: Pauses café l'après-midi

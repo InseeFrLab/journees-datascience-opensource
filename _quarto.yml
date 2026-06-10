@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Journées Data Science & Open Source"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: programme.qmd
+        text: Programme
+      - href: sujets.qmd
+        text: Sujets
+      - href: intro.qmd
+        text: Slides intro
+      - href: git-guide.qmd
+        text: Guide Git
+      - href: divers.qmd
+        text: Contribution libre
+  page-footer:
+    left: "Journées Data Science & Open Source — SSPHub"
+    right: "16-17 juin 2026 · Paris"
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true
+
+
+

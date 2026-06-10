@@ -1,0 +1,101 @@
+---
+title: "Sujets & Projets"
+---
+
+Le sprint vise **4 sujets** portés chacun par un·e référent·e volontaire. Les projets ci-dessous sont des projets open source réels, utilisés quotidiennement dans l'écosystème data science du service public.
+
+---
+
+## Sujets confirmés
+
+```{=html}
+<div class="projets-grid">
+
+  <div class="projet-card">
+    <h3>Active Tigger</h3>
+    <div class="org">CREST / ENSAE — Emilien Schultz</div>
+    <p>Logiciel open source d'annotation collaborative de textes pour les sciences sociales computationnelles. Intègre l'apprentissage actif, le fine-tuning de classifieurs encodeurs, BERTopic et des outils d'IA générative.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-tests">Tests</span>
+      <span class="badge badge-code">Code</span>
+      <span class="badge badge-bug">Issues</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://github.com/emilienschultz/activetigger/" target="_blank">→ GitHub</a>
+    &nbsp;·&nbsp;
+    <a class="repo-link" href="https://www.css.cnrs.fr/active-tigger/" target="_blank">→ Site</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>SNDSTools</h3>
+    <div class="org">INSEE DEE / Inria / DREES — Matthieu Doutreligne</div>
+    <p>Boîte à outils Python/R pour faciliter l'accès et l'exploitation des données du Système National de Données de Santé (SNDS). Projet co-développé avec des équipes hospitalières et de l'Inria.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-bug">Issues</span>
+      <span class="badge badge-tests">Tests</span>
+      <span class="badge badge-trad">Exemples</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://sndstoolers.github.io/sndsTools/" target="_blank">→ Site du projet</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>CanaR</h3>
+    <div class="org">CEREQ — Florian Givernaud</div>
+    <p>Outil CLI open source pour déployer en autonomie des chatbots personnalisés avec du RAG. Utilisable en local ou industrialisable en CI/Docker. Extension MCP à l'étude.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-code">Code</span>
+      <span class="badge badge-bug">Issues</span>
+      <span class="badge badge-tests">Tests</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://github.com/Romanovytch/canar" target="_blank">→ GitHub</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>UtilitR</h3>
+    <div class="org">DREES / OSOL — Julien Blasco</div>
+    <p>Documentation collaborative de R à destination des agents du Service Statistique Public. Référence de l'écosystème SSP pour l'utilisation de R en pratique professionnelle.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-trad">Traduction</span>
+      <span class="badge badge-bug">Issues</span>
+      <span class="badge badge-design">Exemples</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://www.book.utilitr.org/" target="_blank">→ Lire utilitR</a>
+  </div>
+
+</div>
+```
+
+---
+
+## Sujets divers
+
+En plus des projets présentés ci dessus, les participants pourront aussi contribuer de façon individuel à d'autres projets opensource largement utilisés par les data scientists.
+
+Une liste de projets/sujets potentiels est disponible sur la page suivante (liste bien sûr non exhaustive) : [Divers](divers.qmd)
+
+
+---
+
+## Types de contributions accessibles
+
+Contribuer à l'open source ne se limite pas au code. Voici ce que vous pouvez faire, quel que soit votre profil :
+
+| Type                       | Ce que c'est
+|----------------------------|-----------------------------------------------------------
+| 📖 **Documentation**       | Tutoriels, exemples d'usage, correction de docs obsolètes
+| 🌐 **Traduction**          | Traduire des pages de doc en français
+| 🐛 **Signalement de bugs** | Rédiger des issues claires et reproductibles
+| ✅ **Tests**               | Ajouter des cas de test, tester sur des données réelles
+| 🎨 **Design & UX**         | Amélioration de messages d'erreur, de la doc utilisateur
+| 🧹 **Qualité de code**     | Typos, linting, refactoring mineur
+| 💻 **Code**                | Correction de bugs, nouvelles fonctionnalités
+| 📊 **Données & exemples**  | Notebooks de démo, jeux de données d'exemple
+
+

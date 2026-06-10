@@ -1,0 +1,226 @@
+/* ── Base font size ── */
+html {
+  font-size: 11px;
+}
+
+/* ── Variables ── */
+:root {
+  --bleu-nuit: #1b3a5b;
+  --bleu-clair: #2563eb;
+  --vert-ssp: #16a34a;
+  --orange-ssp: #ea580c;
+  --gris-clair: #f8fafc;
+  --gris-texte: #475569;
+  --radius: 0.75rem;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Hero ── */
+.hero {
+  background: linear-gradient(135deg, var(--bleu-nuit) 0%, #2563eb 100%);
+  color: #fff;
+  padding: 4rem 2rem 3rem;
+  border-radius: var(--radius);
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #fff !important;
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.hero .meta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* ── Bouton CTA ── */
+.btn-cta {
+  display: inline-block;
+  background: #fff;
+  color: var(--bleu-nuit);
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: var(--bleu-nuit);
+}
+
+/* ── Messages clés ── */
+.messages-cles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.msg-card {
+  background: var(--gris-clair);
+  border-left: 4px solid var(--bleu-clair);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.msg-card .icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.msg-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.4rem;
+}
+
+.msg-card p {
+  font-size: 0.9rem;
+  color: var(--gris-texte);
+  margin: 0;
+}
+
+/* ── Cards projets ── */
+.projets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.projet-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.projet-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.projet-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.5rem;
+}
+
+.projet-card .org {
+  font-size: 0.8rem;
+  color: var(--gris-texte);
+  margin-bottom: 0.75rem;
+}
+
+.projet-card p {
+  font-size: 0.9rem;
+  color: #334155;
+  margin-bottom: 0.75rem;
+}
+
+.projet-card a.repo-link {
+  font-size: 0.85rem;
+  color: var(--bleu-clair);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.projet-card a.repo-link:hover {
+  text-decoration: underline;
+}
+
+/* ── Badges types de contributions ── */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+
+.badge-doc {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-bug {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-tests {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.badge-code {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.badge-trad {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-design {
+  background: #fce7f3;
+  color: #9d174d;
+}
+
+/* ── Section titre ── */
+. {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--bleu-nuit);
+  border-bottom: 3px solid var(--bleu-clair);
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero .meta {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}

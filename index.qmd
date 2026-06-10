@@ -1,0 +1,152 @@
+---
+title: "Journées Data Science & Open Source"
+toc: false
+---
+
+```{=html}
+<div class="hero">
+  <h1>Journées Data Science &amp; Open Source</h1>
+  <p class="subtitle">Un sprint de contribution open source pour les data scientists du service public</p>
+  <div class="meta">
+    <span>📅 16–17 juin 2026</span>
+    <span>📍 Lieu de la transformation publique — Paris</span>
+    <span>👥 Réseau SSPHub</span>
+  </div>
+  <a href="https://grist.numerique.gouv.fr" class="btn-cta">S'inscrire</a>
+</div>
+```
+
+## L'essentiel
+
+```{=html}
+<div class="messages-cles">
+  <div class="msg-card">
+    <div class="icon">🌍</div>
+    <h3>Contribuer, c'est pour tout le monde</h3>
+    <p>Traduire une page de doc pandas, signaler un bug dans scikit-learn ou améliorer un tutoriel DuckDB — c'est déjà contribuer. Aucun prérequis technique élevé.</p>
+  </div>
+  <div class="msg-card">
+    <div class="icon">🔧</div>
+    <h3>Améliorons nos outils du quotidien</h3>
+    <p>En tant que data scientists du service public, nous utilisons ces projets tous les jours. Nous pouvons aussi en être des contributeurs actifs.</p>
+  </div>
+</div>
+```
+
+## Qu'est-ce que c'est ?
+
+Le sprint est un événement de **2 jours en présentiel** où des data scientists, statisticiens, développeurs et documentalistes du Service Statistique Publique travaillent ensemble sur des projets open source réels.
+
+L'objectif : **démystifier la contribution open source** et montrer que tout le monde peut apporter de la valeur à des outils utilisés au quotidien — que ce soit par du code, de la documentation, des tests, de la traduction ou du signalement de bugs.
+
+::: {.callout-note}
+**L'ambition est la découverte** : explorer le cycle de contribution, se familiariser avec un projet, avancer à son rythme. Que ce soit une issue ouverte, une ligne de doc améliorée ou une PR — tout ce qui est fait compte.
+:::
+
+### Ce que vous pouvez faire
+
+Les projets open source ont des besoins très concrets et très accessibles :
+
+| Type | Exemples |
+|------|---------|
+| 📖 Documentation | Tutoriels, exemples d'usage, correction de docs obsolètes |
+| 🐛 Signalement de bugs | Rédiger des issues claires et reproductibles |
+| ✅ Tests | Ajouter des cas de test, tester sur des données réelles |
+| 🌐 Traduction | Traduire des pages de documentation en français |
+| 🧹 Qualité de code | Typos, linting, refactoring mineur |
+| 💻 Code | Correction de bugs, nouvelles fonctionnalités (profils avancés) |
+
+## Les projets au programme
+
+```{=html}
+<div class="projets-grid">
+
+  <div class="projet-card">
+    <h3>Active Tigger</h3>
+    <div class="org">CREST / ENSAE — Emilien Schultz</div>
+    <p>Outil open source d'annotation collaborative de corpus textuels avec apprentissage actif, fine-tuning de classifieurs et BERTopic.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-tests">Tests</span>
+      <span class="badge badge-code">Code</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://github.com/emilienschultz/activetigger/" target="_blank">→ Voir sur GitHub</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>SNDSTools</h3>
+    <div class="org">INSEE DEE / Inria — Matthieu Doutreligne</div>
+    <p>Boîte à outils pour faciliter l'exploitation des données du Système National de Données de Santé (SNDS).</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-bug">Issues</span>
+      <span class="badge badge-tests">Tests</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://sndstoolers.github.io/sndsTools/" target="_blank">→ Voir le projet</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>CanaR</h3>
+    <div class="org">CEREQ — Florian Givernaud</div>
+    <p>CLI open source pour déployer en autonomie des chatbots personnalisés avec du RAG — utilisable en local ou via CI/Docker.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-code">Code</span>
+      <span class="badge badge-bug">Issues</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://github.com/Romanovytch/canar" target="_blank">→ Voir sur GitHub</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>UtilitR</h3>
+    <div class="org">DREES / OSOL — Julien Blasco</div>
+    <p>Documentation collaborative de R à destination des agents du Service Statistique Public — référence incontournable de l'écosystème.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-trad">Traduction</span>
+      <span class="badge badge-bug">Issues</span>
+    </div>
+    <br>
+    <a class="repo-link" href="https://www.book.utilitr.org/" target="_blank">→ Voir le projet</a>
+  </div>
+
+  <div class="projet-card">
+    <h3>Et plus encore…</h3>
+    <div class="org">Cartiflette, Probabl, et d'autres</div>
+    <p>D'autres sujets seront annoncés début mai. Vous pouvez aussi proposer un projet — <a href="sujets.html">voir l'appel à sujets</a>. Ou contribuer librement à un grand projet — <a href="divers.html">sélection d'issues</a>.</p>
+    <div class="badges">
+      <span class="badge badge-doc">Documentation</span>
+      <span class="badge badge-code">Code</span>
+      <span class="badge badge-design">Design</span>
+    </div>
+  </div>
+
+</div>
+```
+
+## Comment ça se passe ?
+
+1. **Choisissez un sujet** lors des pitchs du mardi matin (5 min par projet)
+2. **Rejoignez un groupe** avec un référent qui guide et débloque
+3. **Contribuez** : les issues sont pré-identifiées, les environnements SSPCloud prêts
+4. **Partagez** lors de la restitution finale le mercredi après-midi
+
+
+## Infos pratiques
+
+| | |
+|---|---|
+| **Dates** | Lundi 16 et mardi 17 juin 2026 |
+| **Lieu** | Lieu de la transformation publique, Paris |
+| **Public** | Agents du Service Statistique Public (SSP) |
+| **Inscription** | Via formulaire Grist (lien envoyé par SSPHub) |
+| **Prérequis** | Compte GitHub, motivation — c'est tout |
+
+<br>
+
+::: {.callout-note appearance="simple"}
+Questions ? Rejoignez le canal **#ssphub** sur Tchap ou contactez l'équipe SSPHub.
+:::
