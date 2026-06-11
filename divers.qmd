@@ -20,6 +20,13 @@ Avant de vous lancer :
 
 ---
 
+## Extension et template quarto - charte graphique Insee
+
+**Dépôt :** [`InseeFrLab/quarto-insee-extension`](github.com/InseeFrLab/quarto-insee-extension/) · **Label :** `good first issue`
+
+- [**#2**](https://github.com/InseeFrLab/quarto-insee-extension/issues/2) — Créer une première version d'extension quarto de template revealJS à la charte graphique Insee
+
+
 ## SciPy
 
 **Dépôt :** [`scipy/scipy`](https://github.com/scipy/scipy) · **Label :** `good first issue`
@@ -132,7 +139,7 @@ Avant de vous lancer :
 
 **Dépôt :** [`duckdb/duckdb`](https://github.com/duckdb/duckdb) · **Label :** `needs reproducible example`
 
-- https://github.com/duckdb/duckdb/discussions/5431 : Une discussion pour l'ajout des poids dans les fonctions `duckdb` (`weighted_avg` existe déjà et pourrait servir de base)
+- [Discussion 5431](https://github.com/duckdb/duckdb/discussions/5431) : Une discussion pour l'ajout des poids dans les fonctions `duckdb` (`weighted_avg` existe déjà et pourrait servir de base)
 - [**#19712**](https://github.com/duckdb/duckdb/issues/19712) — Reproduire : erreur au rejeu d'un fichier WAL sans base par défaut
 - [**#22776**](https://github.com/duckdb/duckdb/issues/22776) — Reproduire : `DISTINCT + ORDER BY DESC + LIMIT` ne renvoie qu'une ligne sur de grandes tables
 - [**#19871**](https://github.com/duckdb/duckdb/issues/19871) — Reproduire : `read_parquet` avec jokers échoue quand de nouveaux fichiers sont écrits
