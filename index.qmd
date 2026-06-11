@@ -86,5 +86,5 @@ Les projets open source ont des besoins très concrets et très accessibles :
 | **Prérequis** | Compte GitHub, motivation — c'est tout |
 
 ::: {.callout-note appearance="simple"}
-Questions ? Rejoignez le canal **#ssphub** sur Tchap ou contactez l'équipe SSPHub.
+Questions ? Rejoignez le canal **#ssphub** sur Tchap ou contactez l'équipe SSPHub à [ssphub-contact@insee.fr](mailto:ssphub-contact@insee.fr).
 :::
