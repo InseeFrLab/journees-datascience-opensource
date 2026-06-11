@@ -20,10 +20,10 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 | 10h45 – 11h05 | 🎯 Pitch des sujets      | Chaque sponsor présente son projet en 5 min : problème, stack, contributions attendues   |
 | 11h05 – 11h15 | 🔀 Formation des groupes | Les participants rejoignent leur sujet préféré                                           |
 | 11h15 – 12h30 | 💻 Sprint    | Travail en groupes. Les référents aident à la prise en main et à l'exploration du projet |
-| 12h30 – 14h00 | 🍽️ Déjeuner              | Pause conviviale, échanges informels                                                     |
+| 12h30 – 14h00 | 🍽️ Déjeuner              | Pause conviviale (repas fournis), échanges informels                                                     |
 | 14h00 – 14h15 | 🔄 Point d'étape         | Tour de table flash : chaque groupe partage son avancement                               |
 | 14h15 – 16h30 | 💻 Sprint    | Poursuite du travail                                                                     |
-| 16h30 – 16h45 | ☕ Pause                  |                                                                                         |
+| 16h30 – 16h45 | ☕ Pause                  |   Café, viennoiseries                                                                   |
 | 16h45 – 17h30 | 💻 Sprint    | Finalisation des contributions de la journée                                             |
 
 ---
@@ -32,11 +32,11 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 
 | Horaire       | Activité                 | Détail                                                                               |
 |---------------|--------------------------|--------------------------------------------------------------------------------------|
-| 9h00 – 9h15   | ☕ Accueil                | Récapitulatif J-1 et plan de la journée                                              |
+| 9h00 – 9h15   | ☕ Accueil   café        | Récapitulatif J-1 et plan de la journée                                              |
 | 9h15 – 12h00  | 💻 Sprint    | Travail en groupes, finalisation des contributions en cours, nouvelles contributions |
-| 12h00 – 13h30 | 🍽️ Déjeuner              |                                                                                      |
+| 12h00 – 13h30 | 🍽️ Déjeuner              |    Repas fournis                                                                                  |
 | 13h30 – 15h30 | 💻 Sprint    | Dernière session de travail. Finalisation des contributions en cours, nettoyage      |
-| 15h30 – 16h00 | ☕ Pause                  |                                                                                      |
+| 15h30 – 16h00 | ☕ Pause                  |      Café, viennoiseries                                                            |
 | 16h00 – 17h00 | 🎤 Restitution & Clôture | Chaque groupe présente ses contributions (5-10 min). Clôture de la journée           |
 
 
@@ -59,5 +59,5 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 
 **Restauration**
 : Café d'accueil les deux matins
-: Déjeuners sur place
+: Déjeuners sur place avec repas fournis par l'organisation
 : Pauses café l'après-midi
