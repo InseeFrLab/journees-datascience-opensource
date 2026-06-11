@@ -15,8 +15,8 @@ listing:
   <p class="subtitle">Un sprint de contribution open source pour les data scientists du service public</p>
   <div class="meta">
     <span>📅 16–17 juin 2026</span>
-    <span>📍 Lieu de la transformation publique — Paris <a href="https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&amp;z=18&amp;l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&amp;w=&amp;permalink=yes"><strong>77 avenue de Ségur, 75015 Paris</strong></a></span>
-    <span>👥 Réseau SSPHub</span>
+    <span>📍 Lieu de la transformation publique - <a href="https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&amp;z=18&amp;l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&amp;w=&amp;permalink=yes" style="color: white;">77 avenue de Ségur, 75015 Paris</a></span>
+    <span>👥 <a href="https://ssphub.netlify.app" style="color: white;">Réseau SSPHub</a></span>
   </div>
   <a href="https://grist.numerique.gouv.fr/o/ssphub/forms/44ZC8RcBg3bjtvs5wy6wq5/55" class="btn-cta">S'inscrire</a>
 </div>
