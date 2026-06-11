@@ -46,7 +46,7 @@ Le sprint se déroule sur **deux jours en présentiel** au Lieu de la transforma
 ## Infos pratiques
 
 **Lieu**
-: Lieu de la transformation publique (LTP) — Paris
+: [Lieu de la transformation publique, 77 avenue de Ségur, 75015 Paris](https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&z=18&l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&w=&permalink=yes)
 : Salle modulable avec prises, WiFi, vidéoprojecteur, paperboard
 
 **Accès**
