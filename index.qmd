@@ -15,7 +15,7 @@ listing:
   <p class="subtitle">Un sprint de contribution open source pour les data scientists du service public</p>
   <div class="meta">
     <span>📅 16–17 juin 2026</span>
-    <span>📍 Lieu de la transformation publique — Paris</span>
+    <span>📍 Lieu de la transformation publique — Paris <a href="https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&amp;z=18&amp;l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&amp;w=&amp;permalink=yes"><strong>77 avenue de Ségur, 75015 Paris</strong></a></span>
     <span>👥 Réseau SSPHub</span>
   </div>
   <a href="https://grist.numerique.gouv.fr/o/ssphub/forms/44ZC8RcBg3bjtvs5wy6wq5/55" class="btn-cta">S'inscrire</a>
@@ -80,7 +80,7 @@ Les projets open source ont des besoins très concrets et très accessibles :
 | | |
 |---|---|
 | **Dates** | Mardi 16 et mercredi 17 juin 2026 |
-| **Lieu** | Lieu de la transformation publique, Paris |
+| **Lieu** | [Lieu de la transformation publique, 77 avenue de Ségur, 75015 Paris](https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&z=18&l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&w=&permalink=yes) |
 | **Public** | Agents du Service Statistique Public (SSP) |
 | **Inscription** | Via formulaire Grist (lien envoyé par SSPHub) |
 | **Prérequis** | Compte GitHub, motivation — c'est tout |
