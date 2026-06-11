@@ -101,7 +101,7 @@ format:
   <div class="card">
     <h4>Active Tigger</h4>
     <p>Annotation collaborative de textes avec apprentissage actif.<br>
-    Emilien Schultz — CREST / ENSAE · <code>github.com/emilienschultz/activetigger</code></p>
+    Emilien Schultz — CREST / ENSAE · <code>github.com/activetigger/activetigger</code></p>
   </div>
   <div class="card">
     <h4>SNDSTools</h4>
