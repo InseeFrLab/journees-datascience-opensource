@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://InseeFrLab.github.io/journees-datascience-opensource/intro.html</loc>
-    <lastmod>2026-06-10T06:29:30.651Z</lastmod>
+    <loc>https://InseeFrLab.github.io/journees-datascience-opensource/index.html</loc>
+    <lastmod>2026-06-11T14:53:00.114Z</lastmod>
   </url>
   <url>
     <loc>https://InseeFrLab.github.io/journees-datascience-opensource/git-guide.html</loc>
-    <lastmod>2026-06-10T06:29:30.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InseeFrLab.github.io/journees-datascience-opensource/programme.html</loc>
-    <lastmod>2026-06-10T06:29:30.651Z</lastmod>
+    <lastmod>2026-06-11T14:53:00.114Z</lastmod>
   </url>
   <url>
     <loc>https://InseeFrLab.github.io/journees-datascience-opensource/sujets.html</loc>
-    <lastmod>2026-06-10T06:29:30.652Z</lastmod>
+    <lastmod>2026-06-11T14:53:00.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InseeFrLab.github.io/journees-datascience-opensource/intro.html</loc>
+    <lastmod>2026-06-11T14:53:00.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://InseeFrLab.github.io/journees-datascience-opensource/programme.html</loc>
+    <lastmod>2026-06-11T14:53:00.114Z</lastmod>
   </url>
   <url>
     <loc>https://InseeFrLab.github.io/journees-datascience-opensource/divers.html</loc>
-    <lastmod>2026-06-10T06:29:30.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://InseeFrLab.github.io/journees-datascience-opensource/index.html</loc>
-    <lastmod>2026-06-10T06:29:30.651Z</lastmod>
+    <lastmod>2026-06-11T14:53:00.114Z</lastmod>
   </url>
 </urlset>
