@@ -18,7 +18,7 @@ listing:
     <span>📍 Lieu de la transformation publique — Paris</span>
     <span>👥 Réseau SSPHub</span>
   </div>
-  <a href="https://grist.numerique.gouv.fr" class="btn-cta">S'inscrire</a>
+  <a href="https://grist.numerique.gouv.fr/o/ssphub/forms/44ZC8RcBg3bjtvs5wy6wq5/55" class="btn-cta">S'inscrire</a>
 </div>
 ```
 
