@@ -87,4 +87,5 @@ Les projets open source ont des besoins très concrets et très accessibles :
 
 ::: {.callout-note appearance="simple"}
 Questions ? Rejoignez le canal **#ssphub** sur Tchap ou contactez l'équipe SSPHub à [ssphub-contact@insee.fr](mailto:ssphub-contact@insee.fr).
+Vous pouvez aussi aller sur le [site du réseau](https://ssphub.netlify.app).
 :::
