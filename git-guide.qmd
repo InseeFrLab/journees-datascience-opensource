@@ -121,6 +121,7 @@ git push -u origin docs/corrige-coquille-readme
 ```
 
 GitHub affiche alors un bandeau **"Compare & pull request"**. Remplissez :
+
 - Un titre clair et court
 - Une description : *quoi* et *pourquoi*
 - Le lien vers l'issue : `Closes #1234`
