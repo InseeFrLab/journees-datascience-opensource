@@ -1,9 +1,7 @@
 ---
 title: "Journées Data Science & Open Source"
-subtitle: "Sprint de contribution — 16-17 juin 2026"
+subtitle: "Sprint de contribution : 16-17 juin 2026"
 author: "SSPHub"
-date: "2026-06-16"
-date-format: long
 lang: fr
 format:
   revealjs:
@@ -13,10 +11,9 @@ format:
     transition: slide
     transition-speed: fast
     highlight-style: github
-    width: 1280
-    height: 720
     center-title-slide: true
     footer: "Journées Data Science & Open Source · SSPHub · 16-17 juin 2026"
+
 ---
 
 ```{=html}
@@ -42,31 +39,28 @@ format:
   border-radius: 0.5rem;
   padding: 0.8rem 1rem;
 }
-.card h4 { margin: 0 0 0.3rem; color: #1b3a5b; font-size: 0.95rem; }
-.card p { margin: 0; font-size: 0.82rem; color: #475569; }
+.card h4 { margin: 0 0 0.3rem; color: #1b3a5b; font-size: 1.5rem; }
+.card p { margin: 0; font-size: 1.2rem; color: #475569; }
 </style>
 ```
+## Pourquoi ce sprint ? {.small}
 
----
-
-## Pourquoi ce sprint ?
-
-**Le réseau SSPHub** — la communauté des data scientists du Service Statistique Public (730+ agents : INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…). Nous utilisons ces outils open source tous les jours — nous pouvons aussi les améliorer.
+**Le réseau SSPHub** : la communauté des data scientists du Service Statistique Public (INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…). Nous utilisons des outils open source tous les jours : nous pouvons aussi les améliorer.
 
 ::: {.incremental}
 - On se dit souvent : *« je ne suis pas assez expert·e »*, *« mon code n'est pas assez propre »*
-- La réalité : les projets ont **besoin** de contributions, et les portes d'entrée sont **accessibles à tous** — doc, traduction, tests comptent autant que le code
+- La réalité : les projets ont **besoin** de contributions, et les portes d'entrée sont **accessibles à tous** : doc, traduction, tests comptent autant que le code
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-**L'objectif du sprint :** *démystifier* la contribution. Le plus dur n'est pas le code — c'est de boucler **une fois** le cycle complet.
+**L'objectif du sprint :** *démystifier* la contribution.
 :::
 
 ---
 
-## Le programme
+## Le programme {.small}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -89,7 +83,10 @@ format:
 | 9h00 | ☕ Accueil |
 | 9h15–15h30 | 💻 Sprint (2 sessions) |
 | 16h00–17h00 | 🎤 Restitution & Clôture |
+
+(sans oublier les pauses déj 🍽️)
 :::
+
 ::::
 
 ---
@@ -101,22 +98,22 @@ format:
   <div class="card">
     <h4>Active Tigger</h4>
     <p>Annotation collaborative de textes avec apprentissage actif.<br>
-    Emilien Schultz — CREST / ENSAE · <code>github.com/activetigger/activetigger</code></p>
+    Emilien Schultz : CREST / ENSAE · <code>github.com/activetigger/activetigger</code></p>
   </div>
   <div class="card">
     <h4>SNDSTools</h4>
     <p>Boîte à outils Python/R pour les données de santé (SNDS).<br>
-    Matthieu Doutreligne — INSEE DEE · <code>sndstoolers.github.io/sndsTools</code></p>
+    Matthieu Doutreligne : INSEE DEE · <code>sndstoolers.github.io/sndsTools</code></p>
   </div>
   <div class="card">
     <h4>CanaR</h4>
     <p>CLI pour déployer des chatbots RAG, en local ou en CI/Docker.<br>
-    Florian Givernaud — CEREQ · <code>github.com/Romanovytch/canar</code></p>
+    Florian Givernaud : CEREQ · <code>github.com/Romanovytch/canar</code></p>
   </div>
   <div class="card">
     <h4>UtilitR</h4>
     <p>La documentation collaborative de R pour le service public.<br>
-    Julien Blasco — DREES / OSOL · <code>www.book.utilitr.org</code></p>
+    Julien Blasco : DREES / OSOL · <code>www.book.utilitr.org</code></p>
   </div>
 </div>
 ```
@@ -124,87 +121,92 @@ format:
 . . .
 
 ::: {.callout-note appearance="simple"}
-**Pitchs détaillés à 10h45** — 5 minutes par projet, puis vous choisissez votre groupe.
-:::
-
----
-
-## Contribuer, c'est quoi ?
-
-::: {.incremental}
-- 📖 **Documentation** — tutoriels, exemples, correction de docs obsolètes
-- 🌐 **Traduction** — une page de doc pandas en français
-- 🐛 **Signalement de bugs** — rédiger une issue claire et reproductible
-- ✅ **Tests** — ajouter des cas de test, tester sur des données réelles
-- 🎨 **Design & UX** — améliorer les messages d'erreur, la doc utilisateur
-- 🧹 **Qualité** — typos, linting, refactoring mineur
-- 💻 **Code** — correction de bugs, nouvelles fonctionnalités *(profils avancés)*
-:::
-
-. . .
-
-::: {.callout-tip}
-**Tout compte.** Une traduction de deux paragraphes aide des milliers d'utilisateurs.
-:::
-
----
-
-## Avant de contribuer
-
-📖 **Lisez le `CONTRIBUTING.md` du projet** — *toujours, avant la première ligne*. Chaque projet a ses conventions (style, branches, tests, format des PR) ; les suivre, c'est le meilleur moyen d'être mergé.
-
-::: {.incremental}
-- 🙋 **Annoncez ce que vous prenez** — commentez « *je prends* » sur l'issue avant de commencer
-- 🧩 **Une issue à la fois**, des PR **petites et focalisées** (une PR = une chose)
-- 🆘 **Demandez de l'aide** — les référents et aidants sont là pour ça
-- 💬 **Bienveillance & patience** — respectez le Code of Conduct ; la review peut prendre du temps, c'est normal
+**Pitchs détaillés à venir**
 :::
 
 . . .
 
 ::: {.callout-tip appearance="simple"}
-**Pas d'objectif chiffré.** Chacun avance à son rythme — l'exploration et la découverte comptent autant que la contribution soumise.
+**Contibutions libres bienvenues aussi**
 :::
 
 ---
 
-## Et l'IA dans tout ça ?
+## Contribuer, c'est quoi ?  {.small}
 
 ::: {.incremental}
-- 🧭 **Chaque projet a sa propre politique** — vérifiez le `CONTRIBUTING.md` et la doc *avant* d'utiliser un assistant IA
+- 📖 **Documentation** : tutoriels, exemples, correction de docs obsolètes
+- 🌐 **Traduction** : une page de doc pandas en français
+- 🐛 **Signalement de bugs** : rédiger une issue claire et reproductible
+- ✅ **Tests** : ajouter des cas de test, tester sur des données réelles
+- 🎨 **Design & UX** : améliorer les messages d'erreur, la doc utilisateur
+- 🧹 **Qualité** : typos, linting, refactoring mineur
+- 🧑‍🤝‍🧑 **Aider** : aider les utilisateurs
+- 💻 **Code** : correction de bugs, nouvelles fonctionnalités *(profils avancés)*
+:::
+
+. . .
+
+::: {.callout-tip}
+**Tout compte.** Une traduction de deux paragraphes peut aider des milliers d'utilisateurs.
+:::
+
+---
+
+## Avant de contribuer {.small}
+
+📖 **Lisez le `CONTRIBUTING.md` du projet** : *toujours, avant la première ligne*. Chaque projet a ses conventions (style, branches, tests, format des PR) ; les suivre, c'est faciliter le travail pour les mainteneurs!
+
+::: {.incremental}
+- 🙋 **Annoncez ce que vous prenez** : commentez « *je prends* » sur l'issue avant de commencer
+- 🧩 **Une issue à la fois**, des PR **petites et focalisées** (une PR = une chose)
+- 🆘 **Demandez de l'aide** : les mainteniciens du projets sont aussi là pour accompagner les contributeurs
+- 💬 **Bienveillance & patience** : respectez le Code of Conduct ; la review peut prendre du temps, c'est normal
+:::
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**Pas d'objectif chiffré.** Chacun avance à son rythme : l'exploration et la découverte comptent autant que la contribution soumise.
+:::
+
+---
+
+## Et l'IA dans tout ça ? {.small}
+
+::: {.incremental}
+- 🧭 **Chaque projet a sa propre politique** : vérifiez le `CONTRIBUTING.md` et la doc *avant* d'utiliser un assistant IA
 - 📣 Certains projets **refusent** les contributions générées par IA, d'autres demandent de **déclarer leur usage** dans la PR
 - 🧠 **Vous restez responsable** de ce que vous soumettez : comprendre, tester et relire chaque ligne
-- ⚖️ Pas de PR générées en masse — **qualité avant quantité**, respectez le temps des mainteneurs
+- ⚖️ Pas de PR générées en masse : **qualité avant quantité**, respectez le temps des mainteneurs
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-En cas de doute sur la politique IA d'un projet, **demandez au référent**.
+En cas de doute sur la politique IA d'un projet, **demandez aux mainteniciens !** .
 :::
 
 ---
 
-## Ce dont vous avez besoin
+## Ce dont vous avez besoin {.small}
 
 ::: {.incremental}
 1. ✅ **Compte GitHub** + Personal Access Token (PAT) créé
-2. ✅ **SSPCloud** — VSCode, Jupyter ou RStudio prêts dans le navigateur sur `datalab.sspcloud.fr`, rien à installer en local
+2. ✅ **SSPCloud** : VSCode, Jupyter ou RStudio prêts dans le navigateur sur `datalab.sspcloud.fr`, rien à installer en local
 3. ✅ Token GitHub enregistré dans SSPCloud (`Mon compte → Services externes`)
 :::
 
 . . .
 
 ::: {.callout-note appearance="simple"}
-Besoin d'aide pour la config ? Les aidants sont là dès maintenant — levez la main !
+Besoin d'aide pour la config ? Les aidants sont là dès maintenant : levez la main !
 La suite (fork, branches, PR, rebase, guidelines) est dans le **[kit de contribution](git-guide.html)**.
 :::
 
 ---
 
 # C'est parti ! {.divider}
-
-**10h45** — Pitch des sujets · **11h05** — Formation des groupes · **11h15** — Sprint !
 
 Ce sprint est un espace pour **découvrir, explorer, se donner du temps**.
 
