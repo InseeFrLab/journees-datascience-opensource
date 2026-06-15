@@ -20,11 +20,11 @@ Avant de vous lancer :
 
 ---
 
-## Extension et template quarto - charte graphique Insee
+## Quarto - étendre la possibilité de commenter des sites ou présentations à GitLab
 
-**Dépôt :** [`InseeFrLab/quarto-insee-extension`](github.com/InseeFrLab/quarto-insee-extension/) · **Label :** `good first issue`
+**Dépôt :** [`quarto-dev/quarto-cli`](github.com/quarto-dev/quarto-cli)
 
-- [**#2**](https://github.com/InseeFrLab/quarto-insee-extension/issues/2) — Créer une première version d'extension quarto de template revealJS à la charte graphique Insee
+- [**#8230**](https://github.com/orgs/quarto-dev/discussions/8230) — Ajouter l'extension BeBlob à Quarto pour pouvoir commenter des pages html depuis le navigateur vers GitLab
 
 
 ## Pynsee
