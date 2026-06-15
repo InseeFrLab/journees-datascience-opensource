@@ -109,49 +109,49 @@
     "href": "intro.html#pourquoi-ce-sprint",
     "title": "Journées Data Science & Open Source",
     "section": "Pourquoi ce sprint ?",
-    "text": "Pourquoi ce sprint ?\nLe réseau SSPHub — la communauté des data scientists du Service Statistique Public (730+ agents : INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…). Nous utilisons ces outils open source tous les jours — nous pouvons aussi les améliorer.\n\nOn se dit souvent : « je ne suis pas assez expert·e », « mon code n’est pas assez propre »\nLa réalité : les projets ont besoin de contributions, et les portes d’entrée sont accessibles à tous — doc, traduction, tests comptent autant que le code\n\n\n\n\n\n\n\n\nL’objectif du sprint : démystifier la contribution. Le plus dur n’est pas le code — c’est de boucler une fois le cycle complet."
+    "text": "Pourquoi ce sprint ?\nLe réseau SSPHub : la communauté des data scientists du Service Statistique Public (INSEE, DREES, DARES, SDES, CEREQ, ENSAE, Inria…). Nous utilisons des outils open source tous les jours : nous pouvons aussi les améliorer.\n\nOn se dit souvent : « je ne suis pas assez expert·e », « mon code n’est pas assez propre »\nLa réalité : les projets ont besoin de contributions, et les portes d’entrée sont accessibles à tous : doc, traduction, tests comptent autant que le code\n\n\n\n\n\n\n\n\nL’objectif du sprint : démystifier la contribution."
   },
   {
     "objectID": "intro.html#le-programme",
     "href": "intro.html#le-programme",
     "title": "Journées Data Science & Open Source",
     "section": "Le programme",
-    "text": "Le programme\n\n\nMardi 16 juin\n\n\n\nHoraire\n\n\n\n\n\n9h30\n☕ Accueil & café\n\n\n10h00\n🎤 Ouverture\n\n\n10h30\n🎯 Introduction (vous y êtes)\n\n\n10h45\n🎯 Pitch des sujets\n\n\n11h05\n🔀 Formation des groupes\n\n\n11h15–17h30\n💻 Sprint (3 sessions)\n\n\n\n\nMercredi 17 juin\n\n\n\nHoraire\n\n\n\n\n\n9h00\n☕ Accueil\n\n\n9h15–15h30\n💻 Sprint (2 sessions)\n\n\n16h00–17h00\n🎤 Restitution & Clôture"
+    "text": "Le programme\n\n\nMardi 16 juin\n\n\n\nHoraire\n\n\n\n\n\n9h30\n☕ Accueil & café\n\n\n10h00\n🎤 Ouverture\n\n\n10h30\n🎯 Introduction (vous y êtes)\n\n\n10h45\n🎯 Pitch des sujets\n\n\n11h05\n🔀 Formation des groupes\n\n\n11h15–17h30\n💻 Sprint (3 sessions)\n\n\n\n\nMercredi 17 juin\n\n\n\nHoraire\n\n\n\n\n\n9h00\n☕ Accueil\n\n\n9h15–15h30\n💻 Sprint (2 sessions)\n\n\n16h00–17h00\n🎤 Restitution & Clôture\n\n\n\n(sans oublier les pauses déj 🍽️)"
   },
   {
     "objectID": "intro.html#les-projets-du-sprint",
     "href": "intro.html#les-projets-du-sprint",
     "title": "Journées Data Science & Open Source",
     "section": "Les projets du sprint",
-    "text": "Les projets du sprint\n\n  \n    Active Tigger\n    Annotation collaborative de textes avec apprentissage actif.\n    Emilien Schultz — CREST / ENSAE · github.com/activetigger/activetigger\n  \n  \n    SNDSTools\n    Boîte à outils Python/R pour les données de santé (SNDS).\n    Matthieu Doutreligne — INSEE DEE · sndstoolers.github.io/sndsTools\n  \n  \n    CanaR\n    CLI pour déployer des chatbots RAG, en local ou en CI/Docker.\n    Florian Givernaud — CEREQ · github.com/Romanovytch/canar\n  \n  \n    UtilitR\n    La documentation collaborative de R pour le service public.\n    Julien Blasco — DREES / OSOL · www.book.utilitr.org\n  \n\n\n\n\n\n\n\n\nPitchs détaillés à 10h45 — 5 minutes par projet, puis vous choisissez votre groupe."
+    "text": "Les projets du sprint\n\n  \n    Active Tigger\n    Annotation collaborative de textes avec apprentissage actif.\n    Emilien Schultz : CREST / ENSAE · github.com/activetigger/activetigger\n  \n  \n    SNDSTools\n    Boîte à outils Python/R pour les données de santé (SNDS).\n    Matthieu Doutreligne : INSEE DEE · sndstoolers.github.io/sndsTools\n  \n  \n    CanaR\n    CLI pour déployer des chatbots RAG, en local ou en CI/Docker.\n    Florian Givernaud : CEREQ · github.com/Romanovytch/canar\n  \n  \n    UtilitR\n    La documentation collaborative de R pour le service public.\n    Julien Blasco : DREES / OSOL · www.book.utilitr.org\n  \n\n\n\n\n\n\n\n\nPitchs détaillés à venir\n\n\n\n\n\n\n\n\n\n\n\nContibutions libres bienvenues aussi"
   },
   {
     "objectID": "intro.html#contribuer-cest-quoi",
     "href": "intro.html#contribuer-cest-quoi",
     "title": "Journées Data Science & Open Source",
     "section": "Contribuer, c’est quoi ?",
-    "text": "Contribuer, c’est quoi ?\n\n📖 Documentation — tutoriels, exemples, correction de docs obsolètes\n🌐 Traduction — une page de doc pandas en français\n🐛 Signalement de bugs — rédiger une issue claire et reproductible\n✅ Tests — ajouter des cas de test, tester sur des données réelles\n🎨 Design & UX — améliorer les messages d’erreur, la doc utilisateur\n🧹 Qualité — typos, linting, refactoring mineur\n💻 Code — correction de bugs, nouvelles fonctionnalités (profils avancés)\n\n\n\n\n\n\n\n\nAstuce\n\n\nTout compte. Une traduction de deux paragraphes aide des milliers d’utilisateurs."
+    "text": "Contribuer, c’est quoi ?\n\n📖 Documentation : tutoriels, exemples, correction de docs obsolètes\n🌐 Traduction : une page de doc pandas en français\n🐛 Signalement de bugs : rédiger une issue claire et reproductible\n✅ Tests : ajouter des cas de test, tester sur des données réelles\n🎨 Design & UX : améliorer les messages d’erreur, la doc utilisateur\n🧹 Qualité : typos, linting, refactoring mineur\n🧑‍🤝‍🧑 Aider : aider les utilisateurs\n💻 Code : correction de bugs, nouvelles fonctionnalités (profils avancés)\n\n\n\n\n\n\n\n\nAstuce\n\n\nTout compte. Une traduction de deux paragraphes peut aider des milliers d’utilisateurs."
   },
   {
     "objectID": "intro.html#avant-de-contribuer",
     "href": "intro.html#avant-de-contribuer",
     "title": "Journées Data Science & Open Source",
     "section": "Avant de contribuer",
-    "text": "Avant de contribuer\n📖 Lisez le CONTRIBUTING.md du projet — toujours, avant la première ligne. Chaque projet a ses conventions (style, branches, tests, format des PR) ; les suivre, c’est le meilleur moyen d’être mergé.\n\n🙋 Annoncez ce que vous prenez — commentez « je prends » sur l’issue avant de commencer\n🧩 Une issue à la fois, des PR petites et focalisées (une PR = une chose)\n🆘 Demandez de l’aide — les référents et aidants sont là pour ça\n💬 Bienveillance & patience — respectez le Code of Conduct ; la review peut prendre du temps, c’est normal\n\n\n\n\n\n\n\n\nPas d’objectif chiffré. Chacun avance à son rythme — l’exploration et la découverte comptent autant que la contribution soumise."
+    "text": "Avant de contribuer\n📖 Lisez le CONTRIBUTING.md du projet : toujours, avant la première ligne. Chaque projet a ses conventions (style, branches, tests, format des PR) ; les suivre, c’est faciliter le travail pour les mainteneurs!\n\n🙋 Annoncez ce que vous prenez : commentez « je prends » sur l’issue avant de commencer\n🧩 Une issue à la fois, des PR petites et focalisées (une PR = une chose)\n🆘 Demandez de l’aide : les mainteniciens du projets sont aussi là pour accompagner les contributeurs\n💬 Bienveillance & patience : respectez le Code of Conduct ; la review peut prendre du temps, c’est normal\n\n\n\n\n\n\n\n\nPas d’objectif chiffré. Chacun avance à son rythme : l’exploration et la découverte comptent autant que la contribution soumise."
   },
   {
     "objectID": "intro.html#et-lia-dans-tout-ça",
     "href": "intro.html#et-lia-dans-tout-ça",
     "title": "Journées Data Science & Open Source",
     "section": "Et l’IA dans tout ça ?",
-    "text": "Et l’IA dans tout ça ?\n\n🧭 Chaque projet a sa propre politique — vérifiez le CONTRIBUTING.md et la doc avant d’utiliser un assistant IA\n📣 Certains projets refusent les contributions générées par IA, d’autres demandent de déclarer leur usage dans la PR\n🧠 Vous restez responsable de ce que vous soumettez : comprendre, tester et relire chaque ligne\n⚖️ Pas de PR générées en masse — qualité avant quantité, respectez le temps des mainteneurs\n\n\n\n\n\n\n\n\nEn cas de doute sur la politique IA d’un projet, demandez au référent."
+    "text": "Et l’IA dans tout ça ?\n\n🧭 Chaque projet a sa propre politique : vérifiez le CONTRIBUTING.md et la doc avant d’utiliser un assistant IA\n📣 Certains projets refusent les contributions générées par IA, d’autres demandent de déclarer leur usage dans la PR\n🧠 Vous restez responsable de ce que vous soumettez : comprendre, tester et relire chaque ligne\n⚖️ Pas de PR générées en masse : qualité avant quantité, respectez le temps des mainteneurs\n\n\n\n\n\n\n\n\nEn cas de doute sur la politique IA d’un projet, demandez aux mainteniciens ! ."
   },
   {
     "objectID": "intro.html#ce-dont-vous-avez-besoin",
     "href": "intro.html#ce-dont-vous-avez-besoin",
     "title": "Journées Data Science & Open Source",
     "section": "Ce dont vous avez besoin",
-    "text": "Ce dont vous avez besoin\n\n✅ Compte GitHub + Personal Access Token (PAT) créé\n✅ SSPCloud — VSCode, Jupyter ou RStudio prêts dans le navigateur sur datalab.sspcloud.fr, rien à installer en local\n✅ Token GitHub enregistré dans SSPCloud (Mon compte → Services externes)\n\n\n\n\n\n\n\n\nBesoin d’aide pour la config ? Les aidants sont là dès maintenant — levez la main ! La suite (fork, branches, PR, rebase, guidelines) est dans le kit de contribution."
+    "text": "Ce dont vous avez besoin\n\n✅ Compte GitHub + Personal Access Token (PAT) créé\n✅ SSPCloud : VSCode, Jupyter ou RStudio prêts dans le navigateur sur datalab.sspcloud.fr, rien à installer en local\n✅ Token GitHub enregistré dans SSPCloud (Mon compte → Services externes)\n\n\n\n\n\n\n\n\nBesoin d’aide pour la config ? Les aidants sont là dès maintenant : levez la main ! La suite (fork, branches, PR, rebase, guidelines) est dans le kit de contribution."
   },
   {
     "objectID": "programme.html",
