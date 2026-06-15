@@ -196,11 +196,11 @@
     "text": "Comment utiliser ce document\nCette sélection vise à démystifier la contribution : la plupart des tâches utiles ne sont pas du code algorithmique complexe, mais de la documentation, des tests, du triage et de petits correctifs. Le sprint est un espace pour explorer à son rythme — une issue commentée, une ligne de doc améliorée, une PR ouverte : tout ce qui avance compte.\n\n\n\n\n\n\nAvertissement\n\n\n\nAvant de vous lancer :\n\nlisez le fil de l’issue (quelqu’un est-il déjà dessus ?) ;\ncommentez « je prends » / « I’d like to work on this » pour réserver ;\nlisez le CONTRIBUTING.md du projet (il répond à 80 % des questions)."
   },
   {
-    "objectID": "divers.html#extension-et-template-quarto---charte-graphique-insee",
-    "href": "divers.html#extension-et-template-quarto---charte-graphique-insee",
+    "objectID": "divers.html#quarto---étendre-la-possibilité-de-commenter-des-sites-ou-présentations-à-gitlab",
+    "href": "divers.html#quarto---étendre-la-possibilité-de-commenter-des-sites-ou-présentations-à-gitlab",
     "title": "Contribution libre",
-    "section": "Extension et template quarto - charte graphique Insee",
-    "text": "Extension et template quarto - charte graphique Insee\nDépôt : InseeFrLab/quarto-insee-extension · Label : good first issue\n\n#2 — Créer une première version d’extension quarto de template revealJS à la charte graphique Insee"
+    "section": "Quarto - étendre la possibilité de commenter des sites ou présentations à GitLab",
+    "text": "Quarto - étendre la possibilité de commenter des sites ou présentations à GitLab\nDépôt : quarto-dev/quarto-cli\n\n#8230 — Ajouter l’extension BeBlob à Quarto pour pouvoir commenter des pages html depuis le navigateur vers GitLab"
   },
   {
     "objectID": "divers.html#pynsee",
