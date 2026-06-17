@@ -40,7 +40,7 @@ API = "https://api.github.com"
 
 # Date de début des Journées Data Science & Open Source : par défaut on
 # récupère toute l'activité depuis cette date. Surchargeable avec --since.
-SPRINT_START = "2026-06-16"
+SPRINT_START = "2026-06-15"
 
 # L'API Events expose les ~300 derniers événements publics (90 jours max),
 # paginés par 100. On s'arrête dès qu'on dépasse la fenêtre demandée.
