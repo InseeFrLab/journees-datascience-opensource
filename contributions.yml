@@ -1,0 +1,26 @@
+# Contributions réalisées pendant le sprint, affichées sur contributions.qmd
+# via le template contributions.ejs.
+#
+# Champs :
+#   projet         nom du projet contribué (ex. "Active Tigger")
+#   contributeur   nom de la personne
+#   type           doc|bug|tests|code|trad|design  (classes CSS .badge-<type>)
+#   titre          courte description de la contribution
+#   url            lien vers la PR ou l'issue
+#
+# Participant·e·s : ajoutez votre contribution en copiant un bloc ci-dessous.
+
+- projet: "quarto"
+  type: code
+  titre: "Meilleure gestion du reload automatique dans vscode onyxia "
+  url: "https://github.com/quarto-dev/quarto-cli/pull/14596"
+
+- projet: "UtilitR"
+  type: doc
+  titre: "Ajout d'un exemple pour la lecture de fichiers Parquet"
+  url: "https://github.com/InseeFrLab/utilitR/pull/456"
+
+- projet: "ActiveTigger"
+  type: doc
+  titre: "Refonte..."
+  url: "https://github.com/activetigger/activetigger/pull/123"

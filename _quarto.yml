@@ -20,6 +20,8 @@ website:
         text: Contribution libre
       - href: git-guide.qmd
         text: Kit contribution
+      - href: contributions.qmd
+        text: Contributions
   page-footer:
     left: "Journées Data Science & Open Source — SSPHub"
     right: "16-17 juin 2026 · Paris"

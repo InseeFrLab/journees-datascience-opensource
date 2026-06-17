@@ -1,0 +1,16 @@
+---
+title: "Contributions réalisées"
+listing:
+  id: contributions
+  contents: contributions.yml
+  template: contributions.ejs
+  sort: false
+  page-size: 100
+---
+
+Cette page recense les contributions open source réalisées pendant le sprint des **Journées Data Science & Open Source**.
+
+Vous avez contribué ? Ajoutez votre entrée dans le fichier `contributions.yml` (un bloc par contribution) puis ouvrez une *pull request* sur le dépôt du site.
+
+::: {#contributions}
+:::
