@@ -47,6 +47,12 @@
   titre: "Reload preview with VSCODE_PROXY_URI ignores the value"
   url: "https://github.com/quarto-dev/quarto-cli/issues/14595"
 
+- projet: "Divers"
+  auteur: "nicotlm"
+  type: pr
+  titre: "update checkout version"
+  url: "https://github.com/nicotlm/utilitR/pull/1"
+
 - projet: "UtilitR"
   auteur: "nicotlm"
   type: pr
@@ -88,6 +94,18 @@
   type: pr
   titre: "Passer de doremifasoldata à S3 #562"
   url: "https://github.com/InseeFrLab/utilitR/pull/576"
+
+- projet: "Divers"
+  auteur: "nicotlm"
+  type: issue
+  titre: "switch to httr2"
+  url: "https://github.com/InseeFrLab/funathon2024_sujet1/issues/5"
+
+- projet: "Divers"
+  auteur: "nicotlm"
+  type: issue
+  titre: "create branch for custom_writer lua filter"
+  url: "https://github.com/InseeFrLab/quarto-insee-extension/issues/10"
 
 - projet: "Divers"
   auteur: "ddecrulle"
@@ -293,6 +311,18 @@
   titre: "Revue : PR #1052"
   url: "https://github.com/activetigger/activetigger/pull/1052#pullrequestreview-4506721053"
 
+- projet: "Divers"
+  auteur: "axlmrin"
+  type: pr
+  titre: "fix a bug and a typo"
+  url: "https://github.com/AXLMRIN/bert-hacking/pull/11"
+
+- projet: "Divers"
+  auteur: "grasclement"
+  type: pr
+  titre: "feat(melodi): tests, docstrings, fix measures parsing"
+  url: "https://github.com/InseeFrLab/pynsee/pull/308"
+
 - projet: "SNDSTools"
   auteur: "judithabk6"
   type: issue
@@ -442,6 +472,42 @@
   type: issue
   titre: "Documentation  : reprise en main et bouger la partie installation en mode développement"
   url: "https://github.com/SNDStoolers/sndsTools/issues/105"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Ajouter un indicateur d'extraction d'indemnités journalières"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/104"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Ajouter une fonction d'extraction des tops depuis la cartographie des pathologies (pré-calculée)"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/103"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Elements de méthodes et indicateur"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/102"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Ajout de la CCAM depuis le MCO"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/101"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "AJout de la CCAM depuis le DCIR"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/100"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Ajout de la biologie depuis le DCIR"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/99"
 
 - projet: "SNDSTools"
   auteur: "0dey"
