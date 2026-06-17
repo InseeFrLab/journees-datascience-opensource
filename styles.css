@@ -231,6 +231,26 @@
   color: var(--bleu-nuit);
 }
 
+.contrib-repo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 2rem 0 0.4rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: var(--bs-font-monospace, monospace);
+  color: var(--bleu-nuit);
+  background: var(--gris-clair);
+  border: 1px solid var(--gris-bordure);
+  border-radius: 999px;
+}
+
+.contrib-repo::before {
+  content: "\01F4C1"; /* 📁 dépôt */
+  font-size: 0.95rem;
+}
+
 .contrib-type-titre {
   margin: 1.2rem 0 0.2rem;
   font-size: 1rem;
