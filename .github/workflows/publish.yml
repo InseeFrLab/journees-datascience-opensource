@@ -14,6 +14,31 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      # Génération des contributions : uniquement sur planification ou
+      # déclenchement manuel (pas à chaque push de contenu).
+      - name: Set up Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v5
+
+      - name: Generate contributions.yml
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_contributions.py
+
+      - name: Commit & push updated contributions
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- contributions.yml; then
+            echo "Aucun changement dans contributions.yml."
+          else
+            git add contributions.yml
+            git commit -m "chore: mise à jour automatique des contributions"
+            git push
+          fi
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 

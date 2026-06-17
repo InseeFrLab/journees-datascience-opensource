@@ -3,15 +3,268 @@
 #
 # Champs :
 #   projet         nom du projet contribué (ex. "Active Tigger")
-#   contributeur   nom de la personne
-#   type           doc|bug|tests|code|trad|design  (classes CSS .badge-<type>)
+#   auteur         identifiant GitHub (affiché en @id, lien vers le profil)
+#   type           pr|issue|review|commit
 #   titre          courte description de la contribution
-#   url            lien vers la PR ou l'issue
+#   url            lien vers la PR, l'issue, le commit...
 #
-# Participant·e·s : ajoutez votre contribution en copiant un bloc ci-dessous.
+# FICHIER GÉNÉRÉ par scripts/generate_contributions.py : il est réécrit
+# entièrement à chaque exécution (les modifs manuelles seront écrasées).
 
-- projet: "quarto"
-  type: code
-  titre: "Meilleure gestion du reload automatique dans vscode onyxia "
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: issue
+  titre: "New Feature: Add embedding API"
+  url: "https://github.com/activetigger/activetigger/issues/1057"
+
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: review
+  titre: "Revue : PR #1055"
+  url: "https://github.com/activetigger/activetigger/pull/1055#pullrequestreview-4507014376"
+
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: pr
+  titre: "Ajouter  schema sur le guidlines"
+  url: "https://github.com/activetigger/activetigger/pull/1056"
+
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: review
+  titre: "Revue : PR #1054"
+  url: "https://github.com/activetigger/activetigger/pull/1054#pullrequestreview-4506938226"
+
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: review
+  titre: "Revue : PR #1053"
+  url: "https://github.com/activetigger/activetigger/pull/1053#pullrequestreview-4506923136"
+
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: pr
+  titre: "modify contribution"
+  url: "https://github.com/activetigger/activetigger/pull/1052"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: pr
+  titre: "Add a new regexp to also match uri in the form /proxy/{{port}}"
   url: "https://github.com/quarto-dev/quarto-cli/pull/14596"
 
+- projet: "Divers"
+  auteur: "micedre"
+  type: issue
+  titre: "Reload preview with VSCODE_PROXY_URI ignores the value"
+  url: "https://github.com/quarto-dev/quarto-cli/issues/14595"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: issue
+  titre: "Create a quarto reveal JS insee-clair extension"
+  url: "https://github.com/InseeFrLab/quarto-insee-extension/issues/2"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "Documenter la méthode de création de compte avec AgentConnect"
+  url: "https://github.com/InseeFrLab/utilitR/issues/380"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "Mettre à jour l'URL du repository bioconductor"
+  url: "https://github.com/InseeFrLab/utilitR/issues/566"
+
+- projet: "UtilitR"
+  auteur: "jpramil"
+  type: pr
+  titre: "Solve ci and _quarto.yml issue"
+  url: "https://github.com/InseeFrLab/utilitR/pull/569"
+
+- projet: "Active Tigger"
+  auteur: "mateomorin"
+  type: issue
+  titre: "New Feature: Add embedding API"
+  url: "https://github.com/activetigger/activetigger/issues/1057"
+
+- projet: "Active Tigger"
+  auteur: "mateomorin"
+  type: pr
+  titre: "Update README for web service functionning"
+  url: "https://github.com/activetigger/activetigger/pull/1055"
+
+- projet: "Active Tigger"
+  auteur: "benbel"
+  type: pr
+  titre: "Update README.md"
+  url: "https://github.com/activetigger/activetigger/pull/1053"
+
+- projet: "Divers"
+  auteur: "benbel"
+  type: pr
+  titre: "Update README.md"
+  url: "https://github.com/benbel/activetigger/pull/1"
+
+- projet: "CanaR"
+  auteur: "Romanovytch"
+  type: issue
+  titre: "[Good first issue] Ajouter des exemples de questions au démarrage d’une conversation"
+  url: "https://github.com/Romanovytch/canar/issues/21"
+
+- projet: "CanaR"
+  auteur: "Romanovytch"
+  type: issue
+  titre: "[Good first issue] Permettre à l’Assistant R d’utiliser l’historique récent de conversation"
+  url: "https://github.com/Romanovytch/canar/issues/20"
+
+- projet: "CanaR"
+  auteur: "Romanovytch"
+  type: issue
+  titre: "[Good first issue] Afficher une estimation du nombre de tokens envoyés au LLM"
+  url: "https://github.com/Romanovytch/canar/issues/19"
+
+- projet: "UtilitR"
+  auteur: "judgegregg"
+  type: pr
+  titre: "Remove bioconductor repository from rproject.toml"
+  url: "https://github.com/InseeFrLab/utilitR/pull/575"
+
+- projet: "UtilitR"
+  auteur: "judgegregg"
+  type: pr
+  titre: "Remove bioconductor repository"
+  url: "https://github.com/InseeFrLab/utilitR/pull/570"
+
+- projet: "UtilitR"
+  auteur: "judgegregg"
+  type: pr
+  titre: "Update bioconductor URL in rproject.toml"
+  url: "https://github.com/InseeFrLab/utilitR/pull/568"
+
+- projet: "UtilitR"
+  auteur: "judgegregg"
+  type: issue
+  titre: "Mettre à jour l'URL du repository bioconductor"
+  url: "https://github.com/InseeFrLab/utilitR/issues/566"
+
+- projet: "Active Tigger"
+  auteur: "guadryabdoul"
+  type: pr
+  titre: "Ajouter  schema sur le guidlines"
+  url: "https://github.com/activetigger/activetigger/pull/1056"
+
+- projet: "Active Tigger"
+  auteur: "axlmrin"
+  type: review
+  titre: "Revue : PR #1052"
+  url: "https://github.com/activetigger/activetigger/pull/1052#pullrequestreview-4506721053"
+
+- projet: "SNDSTools"
+  auteur: "leomaurice"
+  type: issue
+  titre: "Rendre les fonctions compatibles aux extractions du SNDS (appariements, cohortes)"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/113"
+
+- projet: "SNDSTools"
+  auteur: "leomaurice"
+  type: pr
+  titre: "Return lazy table for extract_consultation_erprsf"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/111"
+
+- projet: "SNDSTools"
+  auteur: "ben-fournier"
+  type: pr
+  titre: "Clés de jointure des tables DCIR"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/109"
+
+- projet: "Divers"
+  auteur: "clerousset"
+  type: pr
+  titre: "fix google name <code>utilitr</code>"
+  url: "https://github.com/InseeFrLab/utilitR-website/pull/45"
+
+- projet: "Divers"
+  auteur: "clerousset"
+  type: pr
+  titre: "lien mort dans la page d'accueil"
+  url: "https://github.com/InseeFrLab/utilitR-website/pull/44"
+
+- projet: "CanaR"
+  auteur: "clerousset"
+  type: pr
+  titre: "ajout du nombre de token approximatif"
+  url: "https://github.com/Romanovytch/canar/pull/23"
+
+- projet: "CanaR"
+  auteur: "clerousset"
+  type: pr
+  titre: "Feat/19 token count + cost estimate"
+  url: "https://github.com/Romanovytch/canar/pull/22"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: pr
+  titre: "Add test message for preview in index.qmd"
+  url: "https://github.com/InseeFrLab/utilitR/pull/574"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: pr
+  titre: "Add GitHub Actions workflow for Quarto preview"
+  url: "https://github.com/InseeFrLab/utilitR/pull/573"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "llm.txt"
+  url: "https://github.com/InseeFrLab/utilitR/issues/565"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Régler le bouton \"Essayer dans SSP Cloud\""
+  url: "https://github.com/InseeFrLab/utilitR/issues/572"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Archiver les fiches data.table et arrow"
+  url: "https://github.com/InseeFrLab/utilitR/issues/567"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Enhancement - Cellules interactives avec webR"
+  url: "https://github.com/InseeFrLab/utilitR/issues/563"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Supprimer la référence à bioconductor dans rv"
+  url: "https://github.com/InseeFrLab/utilitR/issues/571"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Utiliser la librairie httr2 plutôt qu'httr pour la fiche API"
+  url: "https://github.com/InseeFrLab/utilitR/issues/553"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Dans la fiche parquet, ajouter le lien vers la liste des verbes issus du `Tidyverse` connus par `arrow`"
+  url: "https://github.com/InseeFrLab/utilitR/issues/481"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "readxl versus openxlsx"
+  url: "https://github.com/InseeFrLab/utilitR/issues/419"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Remarques sur la rubrique 19 : Manipuler des données avec duckdb"
+  url: "https://github.com/InseeFrLab/utilitR/issues/531"

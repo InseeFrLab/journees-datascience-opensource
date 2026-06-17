@@ -1,22 +1,46 @@
 <%
-// Le HTML émis est relu comme du markdown : pas d'indentation,
-// sinon les lignes deviennent des blocs de code.
+// Le HTML émis est relu comme du markdown : pas d'indentation sur les lignes
+// HTML, sinon elles deviennent des blocs de code.
 const labels = {
-  doc: "Documentation",
-  bug: "Issues",
-  tests: "Tests",
-  code: "Code",
-  trad: "Traduction",
-  design: "Design"
+  pr: "Pull requests",
+  issue: "Issues",
+  review: "Revues",
+  commit: "Commits"
 };
+const typeOrder = ["pr", "issue", "review", "commit"];
+
+// Regroupe les contributions par projet ("Divers" toujours en dernier).
+const byProjet = {};
+for (const item of items) {
+  (byProjet[item.projet] ||= []).push(item);
+}
+const projets = Object.keys(byProjet).sort((a, b) => {
+  if (a === "Divers") return 1;
+  if (b === "Divers") return -1;
+  return a.localeCompare(b, "fr");
+});
 %>
+<% for (const projet of projets) { %>
+<h2 class="contrib-projet"><%= projet %></h2>
+<%
+  const byType = {};
+  for (const item of byProjet[projet]) {
+    (byType[item.type] ||= []).push(item);
+  }
+  const types = Object.keys(byType).sort(
+    (a, b) => typeOrder.indexOf(a) - typeOrder.indexOf(b)
+  );
+%>
+<% for (const type of types) { %>
+<h3 class="contrib-type-titre"><span class="badge badge-<%= type %>"><%= labels[type] || type %></span></h3>
 <ul class="contrib-list">
-<% for (const item of items) { %>
+<% for (const item of byType[type]) { %>
 <li>
-<span class="contrib-meta"><%= item.projet %></span>
 <span class="contrib-titre"><%= item.titre %></span>
-<% if (item.type) { %><span class="badge badge-<%= item.type %>"><%= labels[item.type] ?? item.type %></span><% } %>
-<% if (item.url) { %><a class="repo-link" href="<%= item.url %>" target="_blank" rel="noopener">→ Voir la PR</a><% } %>
+<% if (item.auteur) { %><a class="contrib-auteur" href="https://github.com/<%= item.auteur.replace(/^@/, '') %>" target="_blank" rel="noopener">&#64;<%= item.auteur.replace(/^@/, '') %></a><% } %>
+<% if (item.url) { %><a class="repo-link" href="<%= item.url %>" target="_blank" rel="noopener">→ Voir</a><% } %>
 </li>
 <% } %>
 </ul>
+<% } %>
+<% } %>
