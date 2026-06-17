@@ -203,6 +203,45 @@
   color: #9d174d;
 }
 
+/* ── Liste des contributions ── */
+.contrib-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.contrib-list li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--gris-bordure);
+}
+
+.contrib-list .contrib-titre {
+  font-size: 1rem;
+  /* color: var(--gris-texte);*/
+}
+
+.contrib-list .contrib-meta {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--bleu-nuit);
+}
+
+.contrib-list .repo-link {
+  font-size: 0.85rem;
+  color: var(--bleu-clair);
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.contrib-list .repo-link:hover {
+  text-decoration: underline;
+}
+
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .hero h1 {
@@ -218,6 +257,7 @@
 
 /* ── Accessibilité : animations désactivables ── */
 @media (prefers-reduced-motion: reduce) {
+
   .projet-card,
   .btn-cta {
     transition: none;

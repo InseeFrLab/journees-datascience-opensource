@@ -105,6 +105,13 @@
     "text": "Types de contributions accessibles\nContribuer à l’open source ne se limite pas au code. Voici ce que vous pouvez faire, quel que soit votre profil :\n\n\n\n\n\n\n\nType\nCe que c’est\n\n\n\n\n📖 Documentation\nTutoriels, exemples d’usage, correction de docs obsolètes\n\n\n🌐 Traduction\nTraduire des pages de doc en français\n\n\n🐛 Signalement de bugs\nRédiger des issues claires et reproductibles\n\n\n✅ Tests\nAjouter des cas de test, tester sur des données réelles\n\n\n🎨 Design & UX\nAmélioration de messages d’erreur, de la doc utilisateur\n\n\n🧹 Qualité de code\nTypos, linting, refactoring mineur\n\n\n💻 Code\nCorrection de bugs, nouvelles fonctionnalités\n\n\n📊 Données & exemples\nNotebooks de démo, jeux de données d’exemple"
   },
   {
+    "objectID": "contributions.html",
+    "href": "contributions.html",
+    "title": "Contributions réalisées",
+    "section": "",
+    "text": "Cette page recense les contributions open source réalisées pendant le sprint des Journées Data Science & Open Source.\nVous avez contribué ? Ajoutez votre entrée dans le fichier contributions.yml (un bloc par contribution) puis ouvrez une pull request sur le dépôt du site.\n\n\n\nquarto Meilleure gestion du reload automatique dans vscode onyxia  Code → Voir la PR\n\n\nUtilitR Ajout d’un exemple pour la lecture de fichiers Parquet Documentation → Voir la PR\n\n\nActiveTigger Refonte… Documentation → Voir la PR\n\n\nAucun article correspondant"
+  },
+  {
     "objectID": "intro.html#pourquoi-ce-sprint",
     "href": "intro.html#pourquoi-ce-sprint",
     "title": "Journées Data Science & Open Source",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Journées Data Science &amp; Open Source</title>
+<title>Contributions réalisées – Journées Data Science &amp; Open Source</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -75,20 +75,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projets-accueil .list');
+    const listingTargetEl = window.document.querySelector('#listing-contributions .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-org','listing-description','listing-contributions','listing-liens',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-projet','listing-type','listing-titre','listing-url',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-org","listing-description","listing-contributions","listing-liens"],
+      searchColumns: ["listing-projet","listing-type","listing-titre","listing-url"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projets-accueil'] = new List('listing-projets-accueil', options);
+    window['quarto-listings']['listing-contributions'] = new List('listing-contributions', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -135,7 +135,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -153,7 +153,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
@@ -177,7 +177,7 @@ window.Quarto = {
 <span class="menu-text">Kit contribution</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contributions.html"> 
+    <a class="nav-link active" href="./contributions.html" aria-current="page"> 
 <span class="menu-text">Contributions</span></a>
   </li>  
 </ul>
@@ -191,13 +191,15 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Journées Data Science &amp; Open Source</h1>
+<h1 class="title">Contributions réalisées</h1>
 </div>
 
 
@@ -214,229 +216,25 @@ window.Quarto = {
 </header>
 
 
-<div class="hero">
-  <h1>Journées Data Science &amp; Open Source</h1>
-  <p class="subtitle">Un sprint de contribution open source pour les data scientists du service public</p>
-  <div class="meta">
-    <span>📅 16–17 juin 2026</span>
-    <span>📍 Lieu de la transformation publique - <a href="https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&amp;z=18&amp;l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&amp;w=&amp;permalink=yes" style="color: white;">77 avenue de Ségur, 75015 Paris</a></span>
-    <span>👥 <a href="https://ssphub.netlify.app" style="color: white;">Réseau SSPHub</a></span>
-  </div>
-  <a href="https://grist.numerique.gouv.fr/o/ssphub/forms/44ZC8RcBg3bjtvs5wy6wq5/55" class="btn-cta">S'inscrire</a>
-</div>
-<section id="lessentiel" class="level2">
-<h2 class="anchored" data-anchor-id="lessentiel">L’essentiel</h2>
-<div class="messages-cles">
-  <div class="msg-card">
-    <div class="icon">🌍</div>
-    <h3 class="anchored">Contribuer, c'est pour tout le monde</h3>
-    <p>Traduire une page de doc pandas, signaler un bug dans scikit-learn ou améliorer un tutoriel DuckDB — c'est déjà contribuer. Aucun prérequis technique élevé.</p>
-  </div>
-  <div class="msg-card">
-    <div class="icon">🔧</div>
-    <h3 class="anchored">Améliorons nos outils du quotidien</h3>
-    <p>En tant que data scientists du service public, nous utilisons ces projets tous les jours. Nous pouvons aussi en être des contributeurs actifs.</p>
-  </div>
-</div>
-</section>
-<section id="quest-ce-que-cest" class="level2">
-<h2 class="anchored" data-anchor-id="quest-ce-que-cest">Qu’est-ce que c’est ?</h2>
-<p>Le sprint est un événement de <strong>2 jours en présentiel</strong> où des data scientists, statisticiens, développeurs et documentalistes du Service Statistique Publique travaillent ensemble sur des projets open source réels.</p>
-<p>L’objectif : <strong>démystifier la contribution open source</strong> et montrer que tout le monde peut apporter de la valeur à des outils utilisés au quotidien — que ce soit par du code, de la documentation, des tests, de la traduction ou du signalement de bugs.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>L’ambition est la découverte</strong> : explorer le cycle de contribution, se familiariser avec un projet, avancer à son rythme. Que ce soit une issue ouverte, une ligne de doc améliorée ou une PR — tout ce qui est fait compte.</p>
-</div>
-</div>
-<section id="ce-que-vous-pouvez-faire" class="level3">
-<h3 class="anchored" data-anchor-id="ce-que-vous-pouvez-faire">Ce que vous pouvez faire</h3>
-<p>Les projets open source ont des besoins très concrets et très accessibles :</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 40%">
-<col style="width: 60%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Exemples</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>📖 Documentation</td>
-<td>Tutoriels, exemples d’usage, correction de docs obsolètes</td>
-</tr>
-<tr class="even">
-<td>🐛 Signalement de bugs</td>
-<td>Rédiger des issues claires et reproductibles</td>
-</tr>
-<tr class="odd">
-<td>✅ Tests</td>
-<td>Ajouter des cas de test, tester sur des données réelles</td>
-</tr>
-<tr class="even">
-<td>🌐 Traduction</td>
-<td>Traduire des pages de documentation en français</td>
-</tr>
-<tr class="odd">
-<td>🧹 Qualité de code</td>
-<td>Typos, linting, refactoring mineur</td>
-</tr>
-<tr class="even">
-<td>💻 Code</td>
-<td>Correction de bugs, nouvelles fonctionnalités (profils avancés)</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="les-projets-au-programme" class="level2">
-<h2 class="anchored" data-anchor-id="les-projets-au-programme">Les projets au programme</h2>
-<div id="listing-projets-accueil" class="quarto-listing quarto-listing-container-custom">
-<div class="projets-grid">
-<div class="projet-card">
-<h3 class="anchored">
-Active Tigger
-</h3>
-<div class="org">
-CREST / ENSAE — Emilien Schultz
-</div>
-<p>
-Logiciel open source d'annotation collaborative de textes pour les sciences sociales computationnelles. Intègre l'apprentissage actif, le fine-tuning de classifieurs encodeurs, BERTopic et des outils d'IA générative.
-</p>
-<div class="badges">
-<p><span class="badge badge-doc">Documentation</span></p>
-<p><span class="badge badge-tests">Tests</span></p>
-<p><span class="badge badge-code">Code</span></p>
-<p><span class="badge badge-bug">Issues</span></p>
-</div>
-<div class="liens">
-<p><a class="repo-link" href="https://github.com/activetigger/activetigger/" target="_blank" rel="noopener">→ GitHub</a></p>
-<p><a class="repo-link" href="https://www.css.cnrs.fr/active-tigger/" target="_blank" rel="noopener">→ Site</a></p>
-</div>
-</div>
-<div class="projet-card">
-<h3 class="anchored">
-SNDSTools
-</h3>
-<div class="org">
-INSEE DEE / Inria / DREES — Matthieu Doutreligne
-</div>
-<p>
-Boîte à outils Python/R pour faciliter l'accès et l'exploitation des données du Système National de Données de Santé (SNDS). Projet co-développé avec des équipes hospitalières et de l'Inria.
-</p>
-<div class="badges">
-<p><span class="badge badge-doc">Documentation</span></p>
-<p><span class="badge badge-bug">Issues</span></p>
-<p><span class="badge badge-tests">Tests</span></p>
-<p><span class="badge badge-trad">Exemples</span></p>
-</div>
-<div class="liens">
-<p><a class="repo-link" href="https://sndstoolers.github.io/sndsTools/" target="_blank" rel="noopener">→ Site du projet</a></p>
-</div>
-</div>
-<div class="projet-card">
-<h3 class="anchored">
-CanaR
-</h3>
-<div class="org">
-CEREQ — Florian Givernaud
-</div>
-<p>
-Outil CLI open source pour déployer en autonomie des chatbots personnalisés avec du RAG. Utilisable en local ou industrialisable en CI/Docker. Extension MCP à l'étude.
-</p>
-<div class="badges">
-<p><span class="badge badge-doc">Documentation</span></p>
-<p><span class="badge badge-code">Code</span></p>
-<p><span class="badge badge-bug">Issues</span></p>
-<p><span class="badge badge-tests">Tests</span></p>
-</div>
-<div class="liens">
-<p><a class="repo-link" href="https://github.com/Romanovytch/canar" target="_blank" rel="noopener">→ GitHub</a></p>
-</div>
-</div>
-<div class="projet-card">
-<h3 class="anchored">
-UtilitR
-</h3>
-<div class="org">
-DREES / OSOL — Julien Blasco
-</div>
-<p>
-Documentation collaborative de R à destination des agents du Service Statistique Public. Référence de l'écosystème SSP pour l'utilisation de R en pratique professionnelle.
-</p>
-<div class="badges">
-<p><span class="badge badge-doc">Documentation</span></p>
-<p><span class="badge badge-trad">Traduction</span></p>
-<p><span class="badge badge-bug">Issues</span></p>
-<p><span class="badge badge-design">Exemples</span></p>
-</div>
-<div class="liens">
-<p><a class="repo-link" href="https://www.book.utilitr.org/" target="_blank" rel="noopener">→ Lire utilitR</a></p>
-</div>
-</div>
-</div>
+<p>Cette page recense les contributions open source réalisées pendant le sprint des <strong>Journées Data Science &amp; Open Source</strong>.</p>
+<p>Vous avez contribué ? Ajoutez votre entrée dans le fichier <code>contributions.yml</code> (un bloc par contribution) puis ouvrez une <em>pull request</em> sur le dépôt du site.</p>
+<div id="listing-contributions" class="quarto-listing quarto-listing-container-custom">
+<ul class="contrib-list">
+<li>
+<span class="contrib-meta">quarto</span> <span class="contrib-titre">Meilleure gestion du reload automatique dans vscode onyxia </span> <span class="badge badge-code">Code</span> <a class="repo-link" href="https://github.com/quarto-dev/quarto-cli/pull/14596" target="_blank" rel="noopener">→ Voir la PR</a>
+</li>
+<li>
+<span class="contrib-meta">UtilitR</span> <span class="contrib-titre">Ajout d’un exemple pour la lecture de fichiers Parquet</span> <span class="badge badge-doc">Documentation</span> <a class="repo-link" href="https://github.com/InseeFrLab/utilitR/pull/456" target="_blank" rel="noopener">→ Voir la PR</a>
+</li>
+<li>
+<span class="contrib-meta">ActiveTigger</span> <span class="contrib-titre">Refonte…</span> <span class="badge badge-doc">Documentation</span> <a class="repo-link" href="https://github.com/activetigger/activetigger/pull/123" target="_blank" rel="noopener">→ Voir la PR</a>
+</li>
+</ul>
 <div class="listing-no-matching d-none">Aucun article correspondant</div>
 </div>
-</section>
-<section id="comment-ça-se-passe" class="level2">
-<h2 class="anchored" data-anchor-id="comment-ça-se-passe">Comment ça se passe ?</h2>
-<ol type="1">
-<li><strong>Choisissez un sujet</strong> lors des pitchs du mardi matin (5 min par projet)</li>
-<li><strong>Rejoignez un groupe</strong> avec un référent qui guide et débloque</li>
-<li><strong>Contribuez</strong> : les issues sont pré-identifiées, les environnements SSPCloud prêts</li>
-<li><strong>Partagez</strong> lors de la restitution finale le mercredi après-midi</li>
-</ol>
-</section>
-<section id="infos-pratiques" class="level2">
-<h2 class="anchored" data-anchor-id="infos-pratiques">Infos pratiques</h2>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Dates</strong></td>
-<td>Mardi 16 et mercredi 17 juin 2026</td>
-</tr>
-<tr class="even">
-<td><strong>Lieu</strong></td>
-<td><a href="https://cartes.gouv.fr/explorer-les-cartes?c=2.305609,48.847446&amp;z=18&amp;l=PLAN.IGN$GEOPORTAIL:GPP:TMS(1;1;1;0;standard)&amp;w=&amp;permalink=yes">Lieu de la transformation publique, 77 avenue de Ségur, 75015 Paris</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Public</strong></td>
-<td>Agents du Service Statistique Public (SSP)</td>
-</tr>
-<tr class="even">
-<td><strong>Inscription</strong></td>
-<td>Via formulaire Grist (lien envoyé par SSPHub)</td>
-</tr>
-<tr class="odd">
-<td><strong>Prérequis</strong></td>
-<td>Compte GitHub, motivation — c’est tout</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Questions ? Rejoignez le canal <a href="https://tchap.gouv.fr/#/room/#ssphub:agent.finances.tchap.gouv.fr"><strong>#ssphub</strong></a> sur Tchap ou contactez l’équipe SSPHub à <a href="mailto:ssphub-contact@insee.fr">ssphub-contact@insee.fr</a>. Vous pouvez aussi aller sur le <a href="https://ssphub.netlify.app">site du réseau</a>.</p>
-</div>
-</div>
-</div>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
