@@ -109,7 +109,7 @@
     "href": "contributions.html",
     "title": "Contributions réalisées",
     "section": "",
-    "text": "Cette page recense les contributions open source réalisées pendant le sprint des Journées Data Science & Open Source.\nVous avez contribué ? Ajoutez votre entrée dans le fichier contributions.yml (un bloc par contribution) puis ouvrez une pull request sur le dépôt du site.\n\n\n\nquarto Meilleure gestion du reload automatique dans vscode onyxia  Code → Voir la PR\n\n\nUtilitR Ajout d’un exemple pour la lecture de fichiers Parquet Documentation → Voir la PR\n\n\nActiveTigger Refonte… Documentation → Voir la PR\n\n\nAucun article correspondant"
+    "text": "Cette page recense les contributions open source réalisées pendant le sprint des Journées Data Science & Open Source.\nVous avez contribué ? Ajoutez votre entrée dans le fichier contributions.yml (un bloc par contribution) puis ouvrez une pull request sur le dépôt du site.\n\n\n\nquarto Meilleure gestion du reload automatique dans vscode onyxia  Code → Voir la PR\n\n\nAucun article correspondant"
   },
   {
     "objectID": "intro.html#pourquoi-ce-sprint",
