@@ -15,12 +15,3 @@
   titre: "Meilleure gestion du reload automatique dans vscode onyxia "
   url: "https://github.com/quarto-dev/quarto-cli/pull/14596"
 
-- projet: "UtilitR"
-  type: doc
-  titre: "Ajout d'un exemple pour la lecture de fichiers Parquet"
-  url: "https://github.com/InseeFrLab/utilitR/pull/456"
-
-- projet: "ActiveTigger"
-  type: doc
-  titre: "Refonte..."
-  url: "https://github.com/activetigger/activetigger/pull/123"
