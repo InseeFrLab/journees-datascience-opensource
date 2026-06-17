@@ -20,7 +20,7 @@
 - projet: "Divers"
   auteur: "micedre"
   type: pr
-  titre: "feat: Add Beblo comment system (with gitlab)"
+  titre: "PR #14601"
   url: "https://github.com/quarto-dev/quarto-cli/pull/14601"
 
 - projet: "Divers"
@@ -288,6 +288,18 @@
   url: "https://github.com/activetigger/activetigger/pull/1052#pullrequestreview-4506721053"
 
 - projet: "SNDSTools"
+  auteur: "judithabk6"
+  type: issue
+  titre: "encoding issue in synthetic data filenames"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/107"
+
+- projet: "SNDSTools"
+  auteur: "leomaurice"
+  type: pr
+  titre: "Return lazy tbl pour erprsf"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/114"
+
+- projet: "SNDSTools"
   auteur: "leomaurice"
   type: issue
   titre: "Rendre les fonctions compatibles aux extractions du SNDS (appariements, cohortes)"
@@ -302,7 +314,7 @@
 - projet: "SNDSTools"
   auteur: "ben-fournier"
   type: pr
-  titre: "refactor d'un fichier test"
+  titre: "PR #116"
   url: "https://github.com/SNDStoolers/sndsTools/pull/116"
 
 - projet: "SNDSTools"
@@ -311,29 +323,23 @@
   titre: "Clés de jointure des tables DCIR"
   url: "https://github.com/SNDStoolers/sndsTools/pull/109"
 
-- projet: "Divers"
-  auteur: "clerousset"
+- projet: "SNDSTools"
+  auteur: "lea-aguilhon"
   type: pr
-  titre: "fix google name <code>utilitr</code>"
-  url: "https://github.com/InseeFrLab/utilitR-website/pull/45"
+  titre: "add ssr_stays"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/118"
 
-- projet: "Divers"
-  auteur: "clerousset"
-  type: pr
-  titre: "lien mort dans la page d'accueil"
-  url: "https://github.com/InseeFrLab/utilitR-website/pull/44"
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Corriger la prévisualisation des PR"
+  url: "https://github.com/InseeFrLab/utilitR/issues/588"
 
-- projet: "CanaR"
-  auteur: "clerousset"
+- projet: "UtilitR"
+  auteur: "julienblasco"
   type: pr
-  titre: "ajout du nombre de token approximatif"
-  url: "https://github.com/Romanovytch/canar/pull/23"
-
-- projet: "CanaR"
-  auteur: "clerousset"
-  type: pr
-  titre: "Feat/19 token count + cost estimate"
-  url: "https://github.com/Romanovytch/canar/pull/22"
+  titre: "Suppression de lignes en trop dans _quarto.yml"
+  url: "https://github.com/InseeFrLab/utilitR/pull/587"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
@@ -370,6 +376,12 @@
   type: pr
   titre: "Dev 560"
   url: "https://github.com/InseeFrLab/utilitR/pull/585"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: pr
+  titre: "WIP: Parallelism"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/76"
 
 - projet: "SNDSTools"
   auteur: "straymat"
@@ -422,5 +434,5 @@
 - projet: "SNDSTools"
   auteur: "0dey"
   type: issue
-  titre: "Remarques sur la rubrique 19 : Manipuler des données avec duckdb"
-  url: "https://github.com/InseeFrLab/utilitR/issues/531"
+  titre: "Erreur de typage dans les codes retours des données synthétiques"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/110"
