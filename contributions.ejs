@@ -9,6 +9,36 @@ const labels = {
 };
 const typeOrder = ["pr", "issue", "review", "commit"];
 
+// Déduit le dépôt (owner/repo) à partir de l'url GitHub de la contribution.
+function repoFromUrl(url) {
+  const m = (url || "").match(/github\.com\/([^/]+\/[^/]+)/);
+  return m ? m[1] : "";
+}
+
+// Affiche un groupe de contributions, regroupées par type.
+function renderType(item) { %>
+<li>
+<span class="contrib-titre"><%= item.titre %></span>
+<% if (item.auteur) { %><a class="contrib-auteur" href="https://github.com/<%= item.auteur.replace(/^@/, '') %>" target="_blank" rel="noopener">&#64;<%= item.auteur.replace(/^@/, '') %></a><% } %>
+<% if (item.url) { %><a class="repo-link" href="<%= item.url %>" target="_blank" rel="noopener">→ Voir</a><% } %>
+</li>
+<% }
+function renderGroup(group) {
+  const byType = {};
+  for (const item of group) {
+    (byType[item.type] ||= []).push(item);
+  }
+  const types = Object.keys(byType).sort(
+    (a, b) => typeOrder.indexOf(a) - typeOrder.indexOf(b)
+  );
+  for (const type of types) { %>
+<h3 class="contrib-type-titre"><span class="badge badge-<%= type %>"><%= labels[type] || type %></span></h3>
+<ul class="contrib-list">
+<% for (const item of byType[type]) { renderType(item); } %>
+</ul>
+<% }
+}
+
 // Regroupe les contributions par projet ("Divers" toujours en dernier).
 const byProjet = {};
 for (const item of items) {
@@ -22,25 +52,22 @@ const projets = Object.keys(byProjet).sort((a, b) => {
 %>
 <% for (const projet of projets) { %>
 <h2 class="contrib-projet"><%= projet %></h2>
-<%
-  const byType = {};
+<% if (projet === "Divers") {
+  // Pour « Divers », on regroupe par dépôt, trié par nom de dépôt,
+  // avec le nom du dépôt en sous-titre.
+  const byRepo = {};
   for (const item of byProjet[projet]) {
-    (byType[item.type] ||= []).push(item);
+    (byRepo[repoFromUrl(item.url)] ||= []).push(item);
   }
-  const types = Object.keys(byType).sort(
-    (a, b) => typeOrder.indexOf(a) - typeOrder.indexOf(b)
+  // Affiche seulement le nom du dépôt (sans l'org/profil), trié par ce nom.
+  const repos = Object.keys(byRepo).sort((a, b) =>
+    a.split("/").pop().localeCompare(b.split("/").pop(), "fr")
   );
-%>
-<% for (const type of types) { %>
-<h3 class="contrib-type-titre"><span class="badge badge-<%= type %>"><%= labels[type] || type %></span></h3>
-<ul class="contrib-list">
-<% for (const item of byType[type]) { %>
-<li>
-<span class="contrib-titre"><%= item.titre %></span>
-<% if (item.auteur) { %><a class="contrib-auteur" href="https://github.com/<%= item.auteur.replace(/^@/, '') %>" target="_blank" rel="noopener">&#64;<%= item.auteur.replace(/^@/, '') %></a><% } %>
-<% if (item.url) { %><a class="repo-link" href="<%= item.url %>" target="_blank" rel="noopener">→ Voir</a><% } %>
-</li>
-<% } %>
-</ul>
-<% } %>
+  for (const repo of repos) { %>
+<h3 class="contrib-repo"><%= repo.split("/").pop() %></h3>
+<% renderGroup(byRepo[repo]);
+  }
+} else {
+  renderGroup(byProjet[projet]);
+} %>
 <% } %>

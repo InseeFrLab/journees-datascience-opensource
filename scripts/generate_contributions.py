@@ -51,6 +51,7 @@ MAX_EVENT_PAGES = 3
 MANUAL_REPO_MAP = {
     "inseefrlab/utilitr": "UtilitR",
     "sndstoolers/sndstools": "SNDSTools",
+    "inseefrlab/utilitr-website": "UtilitR",
 }
 
 # En-tête réécrit en tête de contributions.yml à chaque génération.
@@ -212,12 +213,15 @@ def event_contributions(event: dict, token: str | None) -> list[dict]:
         })
 
     elif etype == "IssuesEvent":
-        issue = payload.get("issue", {})
-        out.append({
-            "type": "issue",
-            "titre": issue.get("title", "(issue)"),
-            "url": issue.get("html_url", ""),
-        })
+        # On ne retient que la création d'une issue (pas les fermetures,
+        # réouvertures, assignations... qui ne sont pas des contributions).
+        if payload.get("action") == "opened":
+            issue = payload.get("issue", {})
+            out.append({
+                "type": "issue",
+                "titre": issue.get("title", "(issue)"),
+                "url": issue.get("html_url", ""),
+            })
 
     elif etype == "PullRequestReviewEvent":
         pr = payload.get("pull_request", {})

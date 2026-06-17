@@ -20,7 +20,7 @@
 - projet: "Divers"
   auteur: "micedre"
   type: pr
-  titre: "Feature/beblob comments"
+  titre: "feat: Add Beblo comment system (with gitlab)"
   url: "https://github.com/quarto-dev/quarto-cli/pull/14601"
 
 - projet: "Divers"
@@ -47,12 +47,6 @@
   titre: "Reload preview with VSCODE_PROXY_URI ignores the value"
   url: "https://github.com/quarto-dev/quarto-cli/issues/14595"
 
-- projet: "Divers"
-  auteur: "micedre"
-  type: issue
-  titre: "Create a quarto reveal JS insee-clair extension"
-  url: "https://github.com/InseeFrLab/quarto-insee-extension/issues/2"
-
 - projet: "UtilitR"
   auteur: "nicotlm"
   type: pr
@@ -70,12 +64,6 @@
   type: issue
   titre: "Reorganiser l'architecture des pages"
   url: "https://github.com/InseeFrLab/utilitR/issues/583"
-
-- projet: "UtilitR"
-  auteur: "nicotlm"
-  type: issue
-  titre: "date de dernière modification d'une fiche"
-  url: "https://github.com/InseeFrLab/utilitR/issues/357"
 
 - projet: "UtilitR"
   auteur: "nicotlm"
@@ -97,27 +85,9 @@
 
 - projet: "UtilitR"
   auteur: "nicotlm"
-  type: issue
-  titre: "Supprimer la référence à bioconductor dans rv"
-  url: "https://github.com/InseeFrLab/utilitR/issues/571"
-
-- projet: "UtilitR"
-  auteur: "nicotlm"
   type: pr
   titre: "Passer de doremifasoldata à S3 #562"
   url: "https://github.com/InseeFrLab/utilitR/pull/576"
-
-- projet: "UtilitR"
-  auteur: "nicotlm"
-  type: issue
-  titre: "Documenter la méthode de création de compte avec AgentConnect"
-  url: "https://github.com/InseeFrLab/utilitR/issues/380"
-
-- projet: "UtilitR"
-  auteur: "nicotlm"
-  type: issue
-  titre: "Mettre à jour l'URL du repository bioconductor"
-  url: "https://github.com/InseeFrLab/utilitR/issues/566"
 
 - projet: "Divers"
   auteur: "ddecrulle"
@@ -143,13 +113,13 @@
   titre: "fix warning double chunk"
   url: "https://github.com/InseeFrLab/utilitR/pull/581"
 
-- projet: "Divers"
+- projet: "UtilitR"
   auteur: "clerousset"
   type: pr
   titre: "fix google name <code>utilitr</code>"
   url: "https://github.com/InseeFrLab/utilitR-website/pull/45"
 
-- projet: "Divers"
+- projet: "UtilitR"
   auteur: "clerousset"
   type: pr
   titre: "lien mort dans la page d'accueil"
@@ -182,14 +152,8 @@
 - projet: "Active Tigger"
   auteur: "emilienschultz"
   type: issue
-  titre: "add a mean annotation time to have a prediction of time spent"
-  url: "https://github.com/activetigger/activetigger/issues/1045"
-
-- projet: "Active Tigger"
-  auteur: "emilienschultz"
-  type: issue
-  titre: "New Feature: Add embedding API"
-  url: "https://github.com/activetigger/activetigger/issues/1057"
+  titre: "Add the possibility to import dataset for image projects"
+  url: "https://github.com/activetigger/activetigger/issues/1059"
 
 - projet: "Active Tigger"
   auteur: "emilienschultz"
@@ -325,12 +289,6 @@
 
 - projet: "SNDSTools"
   auteur: "leomaurice"
-  type: pr
-  titre: "Return lazy tbl pour erprsf"
-  url: "https://github.com/SNDStoolers/sndsTools/pull/114"
-
-- projet: "SNDSTools"
-  auteur: "leomaurice"
   type: issue
   titre: "Rendre les fonctions compatibles aux extractions du SNDS (appariements, cohortes)"
   url: "https://github.com/SNDStoolers/sndsTools/issues/113"
@@ -353,23 +311,29 @@
   titre: "Clés de jointure des tables DCIR"
   url: "https://github.com/SNDStoolers/sndsTools/pull/109"
 
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "add dependancies visNetwork tarchetypes"
-  url: "https://github.com/InseeFrLab/utilitR/issues/579"
+- projet: "Divers"
+  auteur: "clerousset"
+  type: pr
+  titre: "fix google name <code>utilitr</code>"
+  url: "https://github.com/InseeFrLab/utilitR-website/pull/45"
 
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "llm.txt"
-  url: "https://github.com/InseeFrLab/utilitR/issues/565"
+- projet: "Divers"
+  auteur: "clerousset"
+  type: pr
+  titre: "lien mort dans la page d'accueil"
+  url: "https://github.com/InseeFrLab/utilitR-website/pull/44"
 
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "Abandonner le package doremifasolData pour plutôt lire directement des Parquet depuis S3"
-  url: "https://github.com/InseeFrLab/utilitR/issues/562"
+- projet: "CanaR"
+  auteur: "clerousset"
+  type: pr
+  titre: "ajout du nombre de token approximatif"
+  url: "https://github.com/Romanovytch/canar/pull/23"
+
+- projet: "CanaR"
+  auteur: "clerousset"
+  type: pr
+  titre: "Feat/19 token count + cost estimate"
+  url: "https://github.com/Romanovytch/canar/pull/22"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
@@ -392,47 +356,71 @@
 - projet: "UtilitR"
   auteur: "julienblasco"
   type: issue
-  titre: "Archiver les fiches data.table et arrow"
-  url: "https://github.com/InseeFrLab/utilitR/issues/567"
-
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "Enhancement - Cellules interactives avec webR"
-  url: "https://github.com/InseeFrLab/utilitR/issues/563"
-
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
   titre: "Supprimer la référence à bioconductor dans rv"
   url: "https://github.com/InseeFrLab/utilitR/issues/571"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
   type: issue
-  titre: "Utiliser la librairie httr2 plutôt qu'httr pour la fiche API"
-  url: "https://github.com/InseeFrLab/utilitR/issues/553"
-
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "Dans la fiche parquet, ajouter le lien vers la liste des verbes issus du `Tidyverse` connus par `arrow`"
-  url: "https://github.com/InseeFrLab/utilitR/issues/481"
-
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "readxl versus openxlsx"
-  url: "https://github.com/InseeFrLab/utilitR/issues/419"
-
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "Remarques sur la rubrique 19 : Manipuler des données avec duckdb"
-  url: "https://github.com/InseeFrLab/utilitR/issues/531"
+  titre: "Archiver les fiches data.table et arrow"
+  url: "https://github.com/InseeFrLab/utilitR/issues/567"
 
 - projet: "UtilitR"
   auteur: "lagaims"
   type: pr
   titre: "Dev 560"
   url: "https://github.com/InseeFrLab/utilitR/pull/585"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Tests : Utiliser tribble pour la création de données factices"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/117"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: pr
+  titre: "Return lazy table for extract_consultation_erprsf"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/111"
+
+- projet: "Divers"
+  auteur: "straymat"
+  type: issue
+  titre: "Variables manquantes dans les données synthétiques"
+  url: "https://github.com/SNDStoolers/synthetic_snds/issues/1"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Ajouter une fonction d'extraction des décès"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/112"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: pr
+  titre: "synthetic-data: meilleure consistance des noms des tables PMSI"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/108"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "synthetic data : meilleure gestion des noms des tables PMSI"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/106"
+
+- projet: "SNDSTools"
+  auteur: "straymat"
+  type: issue
+  titre: "Documentation  : reprise en main et bouger la partie installation en mode développement"
+  url: "https://github.com/SNDStoolers/sndsTools/issues/105"
+
+- projet: "SNDSTools"
+  auteur: "0dey"
+  type: pr
+  titre: "extract HAD"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/115"
+
+- projet: "SNDSTools"
+  auteur: "0dey"
+  type: issue
+  titre: "Remarques sur la rubrique 19 : Manipuler des données avec duckdb"
+  url: "https://github.com/InseeFrLab/utilitR/issues/531"
