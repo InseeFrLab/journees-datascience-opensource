@@ -10,7 +10,7 @@ listing:
 
 Cette page recense les contributions open source réalisées pendant le sprint des **Journées Data Science & Open Source**.
 
-Vous avez contribué ? Ajoutez votre entrée dans le fichier `contributions.yml` (un bloc par contribution) puis ouvrez une *pull request* sur le dépôt du site.
+Vous avez contribué ne trouvez pas vos contributions ? Ajoutez identifiant github au fichier participants.txt et relancez le script `generate_contributions`
 
 ::: {#contributions}
 :::
