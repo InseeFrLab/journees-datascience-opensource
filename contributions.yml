@@ -344,7 +344,7 @@
 - projet: "UtilitR"
   auteur: "julienblasco"
   type: pr
-  titre: "Remove repo-url and favicon from _quarto.yml"
+  titre: "Correction bugs yaml et fiche qualité du code"
   url: "https://github.com/InseeFrLab/utilitR/pull/590"
 
 - projet: "UtilitR"
@@ -454,3 +454,9 @@
   type: issue
   titre: "Erreur de typage dans les codes retours des données synthétiques"
   url: "https://github.com/SNDStoolers/sndsTools/issues/110"
+
+- projet: "Active Tigger"
+  auteur: "mehdi-saidi"
+  type: pr
+  titre: "section general contribitions.md"
+  url: "https://github.com/activetigger/activetigger/pull/1054"
