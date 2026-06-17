@@ -13,6 +13,18 @@
 
 - projet: "Divers"
   auteur: "micedre"
+  type: pr
+  titre: "Add documentation on beblo"
+  url: "https://github.com/quarto-dev/quarto-web/pull/2071"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: pr
+  titre: "Feature/beblob comments"
+  url: "https://github.com/quarto-dev/quarto-cli/pull/14601"
+
+- projet: "Divers"
+  auteur: "micedre"
   type: issue
   titre: "feat: Add BeBlob as commenting system (with gitlab)"
   url: "https://github.com/quarto-dev/quarto-cli/issues/14598"
@@ -43,6 +55,48 @@
 
 - projet: "UtilitR"
   auteur: "nicotlm"
+  type: pr
+  titre: "Fix broken link"
+  url: "https://github.com/InseeFrLab/utilitR/pull/586"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: pr
+  titre: "add tarchetypes and visNetwork #579"
+  url: "https://github.com/InseeFrLab/utilitR/pull/584"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "Reorganiser l'architecture des pages"
+  url: "https://github.com/InseeFrLab/utilitR/issues/583"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "date de dernière modification d'une fiche"
+  url: "https://github.com/InseeFrLab/utilitR/issues/357"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: pr
+  titre: "fix typo doremifasoldata tidyverse #562"
+  url: "https://github.com/InseeFrLab/utilitR/pull/580"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "add dependancies visNetwork tarchetypes"
+  url: "https://github.com/InseeFrLab/utilitR/issues/579"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: pr
+  titre: "fix rm doremifasoldata dans target #562"
+  url: "https://github.com/InseeFrLab/utilitR/pull/577"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
   type: issue
   titre: "Supprimer la référence à bioconductor dans rv"
   url: "https://github.com/InseeFrLab/utilitR/issues/571"
@@ -68,8 +122,26 @@
 - projet: "Divers"
   auteur: "ddecrulle"
   type: pr
+  titre: "feat: add opencode to IDE images"
+  url: "https://github.com/InseeFrLab/images-datascience/pull/378"
+
+- projet: "Divers"
+  auteur: "ddecrulle"
+  type: pr
   titre: "feat: génération automatique des contributions depuis l'activité GitHub"
   url: "https://github.com/InseeFrLab/journees-datascience-opensource/pull/3"
+
+- projet: "UtilitR"
+  auteur: "clerousset"
+  type: pr
+  titre: "fix edit page broken link"
+  url: "https://github.com/InseeFrLab/utilitR/pull/578"
+
+- projet: "UtilitR"
+  auteur: "clerousset"
+  type: pr
+  titre: "fix warning double chunk"
+  url: "https://github.com/InseeFrLab/utilitR/pull/581"
 
 - projet: "Divers"
   auteur: "clerousset"
@@ -98,8 +170,20 @@
 - projet: "UtilitR"
   auteur: "jpramil"
   type: pr
+  titre: "Clean visual"
+  url: "https://github.com/InseeFrLab/utilitR/pull/582"
+
+- projet: "UtilitR"
+  auteur: "jpramil"
+  type: pr
   titre: "Solve ci and _quarto.yml issue"
   url: "https://github.com/InseeFrLab/utilitR/pull/569"
+
+- projet: "Active Tigger"
+  auteur: "emilienschultz"
+  type: issue
+  titre: "add a mean annotation time to have a prediction of time spent"
+  url: "https://github.com/activetigger/activetigger/issues/1045"
 
 - projet: "Active Tigger"
   auteur: "emilienschultz"
@@ -148,6 +232,30 @@
   type: pr
   titre: "Update README for web service functionning"
   url: "https://github.com/activetigger/activetigger/pull/1055"
+
+- projet: "Active Tigger"
+  auteur: "benbel"
+  type: review
+  titre: "Revue : PR #1058"
+  url: "https://github.com/activetigger/activetigger/pull/1058#pullrequestreview-4514634344"
+
+- projet: "Active Tigger"
+  auteur: "benbel"
+  type: review
+  titre: "Revue : PR #1058"
+  url: "https://github.com/activetigger/activetigger/pull/1058#pullrequestreview-4514633199"
+
+- projet: "Active Tigger"
+  auteur: "benbel"
+  type: review
+  titre: "Revue : PR #1058"
+  url: "https://github.com/activetigger/activetigger/pull/1058#pullrequestreview-4514627106"
+
+- projet: "Active Tigger"
+  auteur: "benbel"
+  type: pr
+  titre: "Ajoute l'optimisation d'hyperparamètres"
+  url: "https://github.com/activetigger/activetigger/pull/1058"
 
 - projet: "Active Tigger"
   auteur: "benbel"
@@ -217,6 +325,12 @@
 
 - projet: "SNDSTools"
   auteur: "leomaurice"
+  type: pr
+  titre: "Return lazy tbl pour erprsf"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/114"
+
+- projet: "SNDSTools"
+  auteur: "leomaurice"
   type: issue
   titre: "Rendre les fonctions compatibles aux extractions du SNDS (appariements, cohortes)"
   url: "https://github.com/SNDStoolers/sndsTools/issues/113"
@@ -230,8 +344,26 @@
 - projet: "SNDSTools"
   auteur: "ben-fournier"
   type: pr
+  titre: "refactor d'un fichier test"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/116"
+
+- projet: "SNDSTools"
+  auteur: "ben-fournier"
+  type: pr
   titre: "Clés de jointure des tables DCIR"
   url: "https://github.com/SNDStoolers/sndsTools/pull/109"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "add dependancies visNetwork tarchetypes"
+  url: "https://github.com/InseeFrLab/utilitR/issues/579"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "llm.txt"
+  url: "https://github.com/InseeFrLab/utilitR/issues/565"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
@@ -250,12 +382,6 @@
   type: pr
   titre: "Add GitHub Actions workflow for Quarto preview"
   url: "https://github.com/InseeFrLab/utilitR/pull/573"
-
-- projet: "UtilitR"
-  auteur: "julienblasco"
-  type: issue
-  titre: "llm.txt"
-  url: "https://github.com/InseeFrLab/utilitR/issues/565"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
@@ -304,3 +430,9 @@
   type: issue
   titre: "Remarques sur la rubrique 19 : Manipuler des données avec duckdb"
   url: "https://github.com/InseeFrLab/utilitR/issues/531"
+
+- projet: "UtilitR"
+  auteur: "lagaims"
+  type: pr
+  titre: "Dev 560"
+  url: "https://github.com/InseeFrLab/utilitR/pull/585"
