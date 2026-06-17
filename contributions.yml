@@ -20,7 +20,7 @@
 - projet: "Divers"
   auteur: "micedre"
   type: pr
-  titre: "PR #14601"
+  titre: "feat: Add Beblo comment system (with gitlab)"
   url: "https://github.com/quarto-dev/quarto-cli/pull/14601"
 
 - projet: "Divers"
@@ -100,6 +100,12 @@
   type: pr
   titre: "feat: génération automatique des contributions depuis l'activité GitHub"
   url: "https://github.com/InseeFrLab/journees-datascience-opensource/pull/3"
+
+- projet: "UtilitR"
+  auteur: "clerousset"
+  type: pr
+  titre: "WIP ajout date de dernière modification"
+  url: "https://github.com/InseeFrLab/utilitR/pull/589"
 
 - projet: "UtilitR"
   auteur: "clerousset"
@@ -296,6 +302,12 @@
 - projet: "SNDSTools"
   auteur: "leomaurice"
   type: pr
+  titre: "Extract ij"
+  url: "https://github.com/SNDStoolers/sndsTools/pull/119"
+
+- projet: "SNDSTools"
+  auteur: "leomaurice"
+  type: pr
   titre: "Return lazy tbl pour erprsf"
   url: "https://github.com/SNDStoolers/sndsTools/pull/114"
 
@@ -314,7 +326,7 @@
 - projet: "SNDSTools"
   auteur: "ben-fournier"
   type: pr
-  titre: "PR #116"
+  titre: "refactor d'un fichier test"
   url: "https://github.com/SNDStoolers/sndsTools/pull/116"
 
 - projet: "SNDSTools"
@@ -328,6 +340,12 @@
   type: pr
   titre: "add ssr_stays"
   url: "https://github.com/SNDStoolers/sndsTools/pull/118"
+
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: pr
+  titre: "Remove repo-url and favicon from _quarto.yml"
+  url: "https://github.com/InseeFrLab/utilitR/pull/590"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
