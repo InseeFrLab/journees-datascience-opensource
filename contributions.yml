@@ -11,6 +11,96 @@
 # FICHIER GÉNÉRÉ par scripts/generate_contributions.py : il est réécrit
 # entièrement à chaque exécution (les modifs manuelles seront écrasées).
 
+- projet: "Divers"
+  auteur: "micedre"
+  type: issue
+  titre: "feat: Add BeBlob as commenting system (with gitlab)"
+  url: "https://github.com/quarto-dev/quarto-cli/issues/14598"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: review
+  titre: "Revue : PR #3"
+  url: "https://github.com/InseeFrLab/journees-datascience-opensource/pull/3#pullrequestreview-4514121681"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: pr
+  titre: "Add a new regexp to also match uri in the form /proxy/{{port}}"
+  url: "https://github.com/quarto-dev/quarto-cli/pull/14596"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: issue
+  titre: "Reload preview with VSCODE_PROXY_URI ignores the value"
+  url: "https://github.com/quarto-dev/quarto-cli/issues/14595"
+
+- projet: "Divers"
+  auteur: "micedre"
+  type: issue
+  titre: "Create a quarto reveal JS insee-clair extension"
+  url: "https://github.com/InseeFrLab/quarto-insee-extension/issues/2"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "Supprimer la référence à bioconductor dans rv"
+  url: "https://github.com/InseeFrLab/utilitR/issues/571"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: pr
+  titre: "Passer de doremifasoldata à S3 #562"
+  url: "https://github.com/InseeFrLab/utilitR/pull/576"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "Documenter la méthode de création de compte avec AgentConnect"
+  url: "https://github.com/InseeFrLab/utilitR/issues/380"
+
+- projet: "UtilitR"
+  auteur: "nicotlm"
+  type: issue
+  titre: "Mettre à jour l'URL du repository bioconductor"
+  url: "https://github.com/InseeFrLab/utilitR/issues/566"
+
+- projet: "Divers"
+  auteur: "ddecrulle"
+  type: pr
+  titre: "feat: génération automatique des contributions depuis l'activité GitHub"
+  url: "https://github.com/InseeFrLab/journees-datascience-opensource/pull/3"
+
+- projet: "Divers"
+  auteur: "clerousset"
+  type: pr
+  titre: "fix google name <code>utilitr</code>"
+  url: "https://github.com/InseeFrLab/utilitR-website/pull/45"
+
+- projet: "Divers"
+  auteur: "clerousset"
+  type: pr
+  titre: "lien mort dans la page d'accueil"
+  url: "https://github.com/InseeFrLab/utilitR-website/pull/44"
+
+- projet: "CanaR"
+  auteur: "clerousset"
+  type: pr
+  titre: "ajout du nombre de token approximatif"
+  url: "https://github.com/Romanovytch/canar/pull/23"
+
+- projet: "CanaR"
+  auteur: "clerousset"
+  type: pr
+  titre: "Feat/19 token count + cost estimate"
+  url: "https://github.com/Romanovytch/canar/pull/22"
+
+- projet: "UtilitR"
+  auteur: "jpramil"
+  type: pr
+  titre: "Solve ci and _quarto.yml issue"
+  url: "https://github.com/InseeFrLab/utilitR/pull/569"
+
 - projet: "Active Tigger"
   auteur: "emilienschultz"
   type: issue
@@ -46,42 +136,6 @@
   type: pr
   titre: "modify contribution"
   url: "https://github.com/activetigger/activetigger/pull/1052"
-
-- projet: "Divers"
-  auteur: "micedre"
-  type: pr
-  titre: "Add a new regexp to also match uri in the form /proxy/{{port}}"
-  url: "https://github.com/quarto-dev/quarto-cli/pull/14596"
-
-- projet: "Divers"
-  auteur: "micedre"
-  type: issue
-  titre: "Reload preview with VSCODE_PROXY_URI ignores the value"
-  url: "https://github.com/quarto-dev/quarto-cli/issues/14595"
-
-- projet: "Divers"
-  auteur: "micedre"
-  type: issue
-  titre: "Create a quarto reveal JS insee-clair extension"
-  url: "https://github.com/InseeFrLab/quarto-insee-extension/issues/2"
-
-- projet: "UtilitR"
-  auteur: "nicotlm"
-  type: issue
-  titre: "Documenter la méthode de création de compte avec AgentConnect"
-  url: "https://github.com/InseeFrLab/utilitR/issues/380"
-
-- projet: "UtilitR"
-  auteur: "nicotlm"
-  type: issue
-  titre: "Mettre à jour l'URL du repository bioconductor"
-  url: "https://github.com/InseeFrLab/utilitR/issues/566"
-
-- projet: "UtilitR"
-  auteur: "jpramil"
-  type: pr
-  titre: "Solve ci and _quarto.yml issue"
-  url: "https://github.com/InseeFrLab/utilitR/pull/569"
 
 - projet: "Active Tigger"
   auteur: "mateomorin"
@@ -179,29 +233,11 @@
   titre: "Clés de jointure des tables DCIR"
   url: "https://github.com/SNDStoolers/sndsTools/pull/109"
 
-- projet: "Divers"
-  auteur: "clerousset"
-  type: pr
-  titre: "fix google name <code>utilitr</code>"
-  url: "https://github.com/InseeFrLab/utilitR-website/pull/45"
-
-- projet: "Divers"
-  auteur: "clerousset"
-  type: pr
-  titre: "lien mort dans la page d'accueil"
-  url: "https://github.com/InseeFrLab/utilitR-website/pull/44"
-
-- projet: "CanaR"
-  auteur: "clerousset"
-  type: pr
-  titre: "ajout du nombre de token approximatif"
-  url: "https://github.com/Romanovytch/canar/pull/23"
-
-- projet: "CanaR"
-  auteur: "clerousset"
-  type: pr
-  titre: "Feat/19 token count + cost estimate"
-  url: "https://github.com/Romanovytch/canar/pull/22"
+- projet: "UtilitR"
+  auteur: "julienblasco"
+  type: issue
+  titre: "Abandonner le package doremifasolData pour plutôt lire directement des Parquet depuis S3"
+  url: "https://github.com/InseeFrLab/utilitR/issues/562"
 
 - projet: "UtilitR"
   auteur: "julienblasco"
